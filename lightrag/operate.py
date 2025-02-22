@@ -188,57 +188,30 @@ def chunking_markdown_hierarchical(
             subsection_pattern = re.compile(r"^###\s+(.+)", re.MULTILINE)
             subsection_match = subsection_pattern.search(section_content_text)
             if subsection_match:
-                # Get content up to the first subsection heading
-                section_content = section_content_text[:subsection_match.start()].strip()
-            else:
-                # If no subsections, take all content
-                section_content = section_content_text.strip()
-
-            # Create a chunk for the section with its content
-            base_chunk_meta = {
-                "structure_level": "section",
-                "heading_text": section_heading
-            }
-            subsection_titles = []  # Collect subsection titles
-            subsection_splits = subsection_pattern.split(section_content_text)
-
-            if len(subsection_splits) > 1:
-                subsection_titles = subsection_splits[1::2]  # Collect subsection titles
-
-            token_size_chunks = chunking_by_token_size(
-                section_content,
-                overlap_token_size=overlap_token_size,
-                max_token_size=max_token_size,
-                tiktoken_model=tiktoken_model
-            )
-            for chunk_data in token_size_chunks:
-                chunks.append({
-                    **chunk_data,
-                    "chunk_order_index": chunk_index,
-                    "content": f"下面的小节标题是：{', '.join(subsection_titles)}\n内容是：{section_content}\n本节内容属于{chapter_heading}",  # Include section content
-                    **base_chunk_meta
-                })
-                chunk_index += 1
-
-            # 3. 在节内按小节 (###) 分割
-            for subsection_title_text, subsection_content_text in zip(subsection_titles, subsection_splits[2::2]):
-                subsection_title_text = subsection_title_text.strip()
-                if subsection_title_text:
-                    subsection_heading = f"### {subsection_title_text}"
+                # 使用从第一个小节标题开始直到节末的文本进行分割
+                subsections_text = section_content_text[subsection_match.start():].strip()
+                subsection_splits = subsection_pattern.split(subsections_text)
+                if len(subsection_splits) <= 1:
+                    subsection_chunks = [("", subsection_splits[0])]
                 else:
-                    subsection_heading = section_heading  # 如果小节没有标题，继承节标题
+                    # 分割结果形如：[前缀, 小节标题1, 内容1, 小节标题2, 内容2, …]
+                    subsection_title = subsection_splits[1::2]
+                    subsection_content = subsection_splits[2::2]
+                    subsection_chunks = list(zip(subsection_title, subsection_content))
+            else:
+                subsection_chunks = []
 
+            for sub_title, sub_content in subsection_chunks:
+                sub_title = sub_title.strip()
+                if sub_title:
+                    subsection_heading = f"### {sub_title}"
+                else:
+                    subsection_heading = section_heading
                 print(f"Processing Subsection: {subsection_heading}")  # Debugging statement
-
-                # 4. 处理小节内容，如果仍然超长，则按 token 大小分割
-                base_chunk_meta = {
-                    "structure_level": "subsection",
-                    "heading_text": subsection_heading
-                }
-
-                if subsection_content_text.strip():  # 避免空内容块
+                sub_content = sub_content.strip()
+                if sub_content:
                     token_size_chunks = chunking_by_token_size(
-                        subsection_content_text,
+                        sub_content,
                         overlap_token_size=overlap_token_size,
                         max_token_size=max_token_size,
                         tiktoken_model=tiktoken_model
@@ -247,8 +220,9 @@ def chunking_markdown_hierarchical(
                         chunks.append({
                             **chunk_data,
                             "chunk_order_index": chunk_index,
-                            "content": f"本小节内容属于{section_heading}",  # Include subsection content
-                            **base_chunk_meta
+                            "content": f"本小节标题是：{subsection_heading}\n内容是：{sub_content}\n本小节内容属于{section_heading}",
+                            "structure_level": "subsection",
+                            "heading_text": subsection_heading
                         })
                         chunk_index += 1
 
@@ -1913,11 +1887,14 @@ async def kg_query_with_keywords(
     len_of_prompts = len(encode_string_by_tiktoken(query + sys_prompt))
     logger.debug(f"[kg_query_with_keywords]Prompt Tokens: {len_of_prompts}")
 
+    # 6. Generate response
     response = await use_model_func(
         query,
         system_prompt=sys_prompt,
         stream=query_param.stream,
     )
+
+    # 清理响应内容
     if isinstance(response, str) and len(response) > len(sys_prompt):
         response = (
             response.replace(sys_prompt, "")
@@ -1929,18 +1906,19 @@ async def kg_query_with_keywords(
             .strip()
         )
 
-    # Save to cache
-    await save_to_cache(
-        hashing_kv,
-        CacheData(
-            args_hash=args_hash,
-            content=response,
-            prompt=query,
-            quantized=quantized,
-            min_val=min_val,
-            max_val=max_val,
-            mode=query_param.mode,
-            cache_type="query",
-        ),
-    )
+        # 7. Save cache - 只有在收集完整响应后才缓存
+        await save_to_cache(
+            hashing_kv,
+            CacheData(
+                args_hash=args_hash,
+                content=response,
+                prompt=query,
+                quantized=quantized,
+                min_val=min_val,
+                max_val=max_val,
+                mode=query_param.mode,
+                cache_type="query",
+            ),
+        )
+
     return response

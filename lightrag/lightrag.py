@@ -372,7 +372,11 @@ class LightRAG:
             str,
         ],
         list[dict[str, Any]],
-    ] = chunking_by_token_size
+    ] = field(default_factory=lambda: chunking_by_token_size)
+
+    # 添加新的配置参数
+    chunking_mode: str = "token"  # 可选值: "token" 或 "markdown"
+    """Chunking mode to use: 'token' for token-based chunking, 'markdown' for markdown hierarchical chunking."""
 
     def verify_storage_implementation(
         self, storage_type: str, storage_name: str
@@ -565,6 +569,16 @@ class LightRAG:
             loop = always_get_an_event_loop()
             loop.run_until_complete(self.initialize_storages())
 
+        # 在 __post_init__ 中根据 chunking_mode 设置 chunking_func
+        if self.chunking_mode == "markdown":
+            from .operate import chunking_markdown_hierarchical
+            self.chunking_func = chunking_markdown_hierarchical
+        elif self.chunking_mode == "token":
+            from .operate import chunking_by_token_size
+            self.chunking_func = chunking_by_token_size
+        else:
+            raise ValueError(f"Unknown chunking mode: {self.chunking_mode}")
+
     def __del__(self):
         # Finalize storages
         if self.auto_manage_storages_states:
@@ -627,19 +641,17 @@ class LightRAG:
         input: str | list[str],
         split_by_character: str | None = None,
         split_by_character_only: bool = False,
-        chunking_function: Callable = None,
     ) -> None:
         """Sync Insert documents with checkpoint support
 
         Args:
             input: Single document string or list of document strings
-            split_by_character: if split_by_character is not None, split the string by character, if chunk longer than
-            split_by_character_only: if split_by_character_only is True, split the string by character only, when
-            chunking_function: Function to use for chunking the document
+            split_by_character: if split_by_character is not None, split the string by character
+            split_by_character_only: if split_by_character_only is True, split the string by character only
         """
         loop = always_get_an_event_loop()
         loop.run_until_complete(
-            self.ainsert(input, split_by_character, split_by_character_only, chunking_function)
+            self.ainsert(input, split_by_character, split_by_character_only)
         )
 
     async def ainsert(
@@ -647,24 +659,18 @@ class LightRAG:
         input: str | list[str],
         split_by_character: str | None = None,
         split_by_character_only: bool = False,
-        chunking_function: Callable = None,
     ) -> None:
         """Async Insert documents with checkpoint support
 
         Args:
             input: Single document string or list of document strings
-            split_by_character: if split_by_character is not None, split the string by character, if chunk longer than
-            split_by_character_only: if split_by_character_only is True, split the string by character only, when
-            chunking_function: Function to use for chunking the document
+            split_by_character: if split_by_character is not None, split the string by character
+            split_by_character_only: if split_by_character_only is True, split the string by character only
         """
-        # 如果输入是 Markdown 格式，使用指定的分块函数进行分块
-        if isinstance(input, str) and input.strip().startswith("#"):
-            if chunking_function is None:
-                chunking_function = markdown_hierarchical_chunking  # 默认使用 markdown_chunking
-            chunks = chunking_function(input)
-            await self.apipeline_enqueue_documents(chunks)
-        else:
-            await self.apipeline_enqueue_documents(input)
+        await self.apipeline_enqueue_documents(input)
+        await self.apipeline_process_enqueue_documents(
+            split_by_character, split_by_character_only
+        )
 
     def insert_custom_chunks(self, full_text: str, text_chunks: list[str]) -> None:
         loop = always_get_an_event_loop()
@@ -766,6 +772,7 @@ class LightRAG:
         self,
         split_by_character: str | None = None,
         split_by_character_only: bool = False,
+    
     ) -> None:
         """
         Process pending documents by splitting them into chunks, processing
