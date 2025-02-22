@@ -627,6 +627,7 @@ class LightRAG:
         input: str | list[str],
         split_by_character: str | None = None,
         split_by_character_only: bool = False,
+        chunking_function: Callable = None,
     ) -> None:
         """Sync Insert documents with checkpoint support
 
@@ -634,11 +635,11 @@ class LightRAG:
             input: Single document string or list of document strings
             split_by_character: if split_by_character is not None, split the string by character, if chunk longer than
             split_by_character_only: if split_by_character_only is True, split the string by character only, when
-            split_by_character is None, this parameter is ignored.
+            chunking_function: Function to use for chunking the document
         """
         loop = always_get_an_event_loop()
         loop.run_until_complete(
-            self.ainsert(input, split_by_character, split_by_character_only)
+            self.ainsert(input, split_by_character, split_by_character_only, chunking_function)
         )
 
     async def ainsert(
@@ -646,6 +647,7 @@ class LightRAG:
         input: str | list[str],
         split_by_character: str | None = None,
         split_by_character_only: bool = False,
+        chunking_function: Callable = None,
     ) -> None:
         """Async Insert documents with checkpoint support
 
@@ -653,12 +655,16 @@ class LightRAG:
             input: Single document string or list of document strings
             split_by_character: if split_by_character is not None, split the string by character, if chunk longer than
             split_by_character_only: if split_by_character_only is True, split the string by character only, when
-            split_by_character is None, this parameter is ignored.
+            chunking_function: Function to use for chunking the document
         """
-        await self.apipeline_enqueue_documents(input)
-        await self.apipeline_process_enqueue_documents(
-            split_by_character, split_by_character_only
-        )
+        # 如果输入是 Markdown 格式，使用指定的分块函数进行分块
+        if isinstance(input, str) and input.strip().startswith("#"):
+            if chunking_function is None:
+                chunking_function = markdown_hierarchical_chunking  # 默认使用 markdown_chunking
+            chunks = chunking_function(input)
+            await self.apipeline_enqueue_documents(chunks)
+        else:
+            await self.apipeline_enqueue_documents(input)
 
     def insert_custom_chunks(self, full_text: str, text_chunks: list[str]) -> None:
         loop = always_get_an_event_loop()
