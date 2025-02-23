@@ -26,6 +26,222 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "登乘证的管理包括哪些内容"
+    },
+    "bdc68db56a71a1f172c80ede29144128": {
+      "return": "申请登乘卡单位在登乘卡管理中的主要职责包括：\n\n1. **信息录入及日常管理**：\n   - 建立严格的登乘卡请领、保管、回收、缴交等制度。\n   - 负责本单位登乘卡的信息录入工作。\n   - 做好登乘卡的日常管理工作。\n\n2. **人员资质审核**：\n   - 对本单位劳务工资质及相关信息进行确认。\n   - 严格初审提报的通勤劳务工，确保其符合广州局集团公司劳资管理信息系统内注册的条件。\n   - 通勤区间仅限劳务工工作地至广州局集团公司劳资管理信息系统登记的家庭常住地之间。\n\n3. **动态管理和报告**：\n   - 对本单位登乘卡持有者的动态管理，负责人员调入调出、离岗离职等情况的报告。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责"
+    },
+    "4eb8d59a81febe992a452db65e605fa3": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是中国铁路广州局集团有限公司。该文件旨在规范旅客列车登乘管理，确保列车客运组织安全有序，维护客运站车良好秩序。该办法自2019年3月4日起开始执行，具体内容包括各类登乘卡的类别、使用规定和限制等。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "621afa2591a914e2455ccb0cd2aef730": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是2019年3月4日。这是根据文件的最后一页的公章时间来确定的。根据该文件，中国铁路广州局集团有限公司于2019年3月4日公布了此管理办法。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "853d75bdf109f81c4ae74a329c6bdc2a": {
+      "return": "根据《广州局集团公司旅客列车登乘卡管理办法》（广铁客发〔2019〕46号），该办法的制定目的是为了加强旅客列车登乘管理，确保列车客运组织安全有序，维护客运站车的良好秩序。此外，该办法还结合了广铁集团的实际工作情况，并根据总公司的相关规定进行制定。办法适用于集团公司管内的客运车站及其担当的旅客列车，包括福田站至香港西九龙站内地口岸区和跨境动车组。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "2b9aed124709f922223ba91cf8439646": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》适用范围如下：\n\n### 适用范围\n**第二条** 本办法适用于集团公司管内客运车站以及集团公司担当的旅客列车（包含福田站至香港西九龙站内地口岸区、跨境动车组）。\n\n### 登乘卡类别和办理范围\n1. **广深港高铁跨境动车组登乘卡（跨境登乘卡）**\n   - 个人卡有效期为1年，公用卡有效期为3年。\n   - 个人卡办理人员范围包括跨境动车组车内保洁人员、餐饮人员，集团公司机关、与跨境运输相关单位每月需多次检查、支援跨境动车组或香港西九龙站内地口岸区的管理人员。\n   - 公用卡办理范围主要涉及与跨境运输相关的集团公司机关部门和单位。\n\n2. **旅客列车登乘卡**\n   - 包括通勤登乘卡和维保登乘卡，有效期均为1年。\n   - 通勤登乘卡办理范围为集团公司劳卫部登记在册且未分配单身宿舍的劳务工，其乘车区间仅限劳务工工作地至家庭常住地。\n   - 维保登乘卡办理范围包括与车辆设备有关的路外设备厂家相关人员、客运站车保洁单位、动车组餐饮公司、委外保安公司等管理人员，以及其他因特殊情况经集团公司主管运输领导批准的相关人员。\n\n### 登乘卡使用限制\n- 登乘卡仅限在集团公司管内车站进出，仅限乘坐规定有效期内集团公司担当的旅客列车，不得乘坐外局或港铁公司担当的列车。\n- 跨境登乘卡在香港西九龙站使用时，严禁离开内地口岸区。\n- 通勤登乘卡乘车区间仅限工作地至常住地，维保登乘卡乘车区间由集团公司对口部门根据工作需要确定。\n- 使用各类登乘卡时，需要配合出示本人的身份证明文件（身份证、工作证等）。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "f3a22202943ad74888473fde73de357a": {
+      "return": "登乘卡主要分为以下几类：\n\n### 跨境动车组登乘卡（跨境登乘卡）\n- **分类型**：分为公用卡和个人卡\n- **有效期**：个人卡为1年，公用卡为3年\n- **办理人员范围**：\n  - 个人卡办理范围：跨境动车组车内保洁人员和餐饮人员，以及集团公司机关、跨境运输相关单位每月需多次检查、支援跨境动车组或香港西九龙站内地口岸区的管理人员\n  - 公用卡办理范围：与跨境运输相关的集团公司机关部门和单位\n\n### 旅客列车登乘卡\n- **分类型**：分为通勤登乘卡和维保登乘卡两种\n- **有效期**：均有效期为1年\n- **办理范围**：\n  - 通勤登乘卡：集团公司劳卫部登记在册且未分配单身宿舍、需在劳务工作地与广铁集团劳资管理信息系统登记的家庭常住地间通勤的劳务工\n  - 维保登乘卡：与车辆及各类车载设备有关的路外设备厂家相关人员、客运站车保洁单位相关管理人员、动车组餐饮公司相关管理人员、委外保安公司相关管理人员及其他特殊情况经集团公司主管运输领导批准的相关人员",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "b86b8e6c6a501bf2f1e04ee8277e6590": {
+      "return": "**跨境登乘卡分为以下两类：**\n\n1. **个人卡**：\n   - 有效期为1年。\n   - 适用于跨境动车组车内保洁人员和餐饮人员，以及集团公司机关、跨境运输相关单位每月需多次检查、支援跨境动车组或香港西九龙站内地口岸区的管理人员。\n\n2. **公用卡**：\n   - 有效期为3年。\n   - 发放范围为与跨境运输相关的集团公司机关部门和单位。\n\n这两类卡片的具体样式和更多细节信息可以在提供的附件1中找到。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "75001bfb0d5d11aad7c4d4efcbbe1933": {
+      "return": "通勤登乘卡和维保登乘卡的有效期均为1年。具体来说：\n\n1. **通勤登乘卡**：适用于集团公司劳卫部登记在册且未分配单身宿舍的劳务工，有效期为1年。\n2. **维保登乘卡**：适用于与车辆及各类车载设备相关的各类维保人员，有效期也为1年。\n\n请注意，这些登乘卡的样式可以在附件2中找到。若有进一步的需求，可以参考相关文件。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "b99a877453c4f941a36017dacae9de29": {
+      "return": "根据《广州局集团公司旅客列车登乘卡管理办法》，以下人员可以办理跨境登乘卡个人卡：\n\n- 跨境动车组车内保洁人员和餐饮人员；\n- 集团公司机关、跨境运输相关单位每月需多次检查、支援跨境动车组或香港西九龙站内地口岸区的管理人员。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "a0b08072d37b0bff624aa0b6c17953b8": {
+      "return": "根据《广州局集团公司旅客列车登乘卡管理办法》，跨境登乘卡的公用卡办理范围为与跨境运输相关的集团公司机关部门和单位。具体来说，这些公用卡的有效期为3年，主要用于与跨境运输相关的管理任务中。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "5fc04dcc530625eaf05740394fdec579": {
+      "return": "《广州局集团公司重点、团体用票管理办法》适用于以下列车：\n\n- 广州局集团公司始发的除香港跨境列车外的所有列车。\n- 适用于集团管内各公司及客运站段。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "ee7ea4755f1905d0a8e4f63b789f3249": {
+      "return": "根据《广州局集团公司重点、团体用票管理办法》中的相关规定，只有县级以上（含县级）的党、政、军机关可以申请建立订票合同户。这些单位在申请时需提供单位证明，并经过站段（公司）的党政联席会议通过后，签订订票合同。详细的申请和合同内容的审批需要行政正职或主管副职签字确认。\n\n其他单位如企事业单位、旅行社、酒店、宾馆等被明确禁止与车站确立订票合同户关系，不得签定任何符合法律效力的订票合同或协议。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "5acaa0e2d5b3ecba40fae915db6df620": {
+      "return": "### 机动票的定义与优先使用对象\n\n机动票是指满足重点旅客用票需求的票额，是根据国铁集团的相关规定预留的（第八条）。\n\n### 优先使用对象\n\n机动票应首先满足以下单位的公务用票需求：\n- 国铁集团\n- 集团公司\n- 地方党、政、军机关\n\n使用机动票时，需由用票单位向票额所属站提报《订票申请单》，并经车站行政正职或主管副职签字同意后使用（第九条）。其中，“机动1”用途的票额使用严格按集团公司办公室的要求执行，其他单位需在规定时间内才能使用。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "839896f2be6ae742fa5eb205063995ab": {
+      "return": "根据规定，车站办理免票签证业务时，每一列车（含途径车）办理免票张数日累计上限为：\n\n- 软卧：4张\n- 硬卧：6张\n- 软座：4张\n- 硬座：6张\n- 动车组列车动卧：4张\n- 一等座：4张\n- 二等座：6张\n\n以上均需核验“三证”（工作证、出差证、乘车证）齐全，并且乘车证已经与居民身份证绑定的情况下使用居民身份证。车站需要指定售票窗口办理此类签证手续，且办理时需与车票预售期保持一致。如果铁路单位职工集体出差时，同一列车办理的免票超过上述规定数量，必须按照额外的审批流程办理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "3d3ff83df787bdcfd735b23765b44c38": {
+      "return": "根据规定，未经广州局集团公司批准，车站不得办理非本站的免票签证。这意味着在通常情况下，车站只能处理本站的职工免票签证业务，处理其他车站的免票签证需要获得广州局集团公司的特别批准。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "fa972c30412ab48473779f5bfd18cbc7": {
+      "return": "### 团体票定义\n\n团体票是指一次性购买20张及以上乘车日期、车次、到站、座别相同的车票。这是为了方便旅游团体或其他团体旅客出行而设立的一种特殊票务方式。\n\n### 办理限制时段\n\n根据规定，特定时段内不受理团体票申请，具体时段如下：\n1. **广州、深圳、东莞、惠州等地区** —— 春运第一天至除夕期间。\n2. **湛江、茂名、潮汕、梅州等地区** —— 正月初三至初七期间。\n3. **湖南等地区** —— 正月初三至十八期间。\n4. **海南地区** —— 春运第一天至正月十八期间。\n\n除了上述特定时段外，团体票的购买可以在其他乘车日期内办理。这是为了确保在这些特殊日期里，个人及零散旅客能够更容易地购买到所需的车票。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "d7beebb5d149d076fe58eff670cef389": {
+      "return": "团体票安排按列车客座率实行总量上限控制。对于上一年按日同期客座率80%以上的列车，预售期外可以安排分车次、分席别不超过50%的团体票额。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "2853a1a3fe4b3b9082cd16fa31fa12b8": {
+      "return": "如果单位需要申请购买团体票，需要向车站提交以下资料：\n\n1. **《订票申请单》**：一式两份，车站和订票单位各持1份，同时提交加盖公章的单位用票证明。\n2. **经办人资格证明**：经办人为订票单位正式员工或为固定合同工的证明，及经办人与订票单位签订的劳动合同复印件（国家党、政、军机关及事业单位提供一项证明材料即可）。\n3. **经办人信息**：经办人身份证原件及复印件、联系方式。\n4. **承诺书**：使用单位需提交承诺书（见附件6）。\n\n如果用票单位为旅游企业，还须提交以下额外资料：\n\n1. **工商营业执照原件及复印件**。\n2. **税务登记证原件及复印件**。\n3. **旅行社业务经营许可证原件及复印件**。\n\n如果旅游企业所属地已实行“三证合一”的情况（即企业工商营业执照、组织机构代码证和税务登记证），只需提交合并核发后的企业工商营业执照即可。相关证照原件首次申报时需经车站核对原件和复印件的一致性后交还申报单位，复印件由车站存档备查。再次申报团体票时，无需重复提交，如发生变更，须及时联系车站办理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "0efb1c4ea20e19436b508931d90f7c7d": {
+      "return": "站段需要向集团公司客运部申请团体票调拨时，应按照以下步骤操作：\n\n1. 填写《团体用票申报单》（见附件7），需包括团体票的具体需求信息。\n2. 该申报单需由站段的行政正职或主管副职签字同意，并加盖站段的单位公章。\n3. 将填写好的申报单以传真形式发送至集团公司客运部的客票管理所。\n4. 同时通过电话确认申报单已成功提交。\n5. 对于预售期外的申请，提前1至2个工作日的12点之前提交是可以的。例如，如果车票将在明天开始销售，那么最晚应在今天天12点前提交申请。集团公司客运部在符合总量上限控制的情况下，会按照“效益最大化、兼顾重点”的原则来安排团体票。\n6. 有了初步安排后，站段还需在车票开售当天制票，或是在开车前第8天至车票开售当天期间进行一次确认。如果团体用票计划的兑现率在70%以上，并在开车前5天之前完成制票，则制票兑现率需达到80%以上，否则车站应取消该批团体用票计划。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "5132e9925fe850b38c0223fc3082d3f7": {
+      "return": "### 团体售票处理流程\n\n车站处理团体售票时，需遵循以下流程：\n1. **申请单审批**：订票单位（个人）需规范填写《订票申请单》，由本单位行政正职或主管副职审批、签字同意后才能办理。\n2. **制票登记**：窗口制票时，必须填写《出票登记表》，并确保出票记录和审批的《订票申请单》一致，实现有审批、有登记、知去向的管理原则。\n\n### 日常台账管理和监督检查\n\n日常台账管理和监督检查措施如下：\n1. **台账记录要求**：所有台帐记录（排除线下办理旅游团体用票的书面材料）需按A4纸横向排列格式存档，按月汇总装订保存一年。\n2. **无票层层分割**：机动票额不得层层分割或切块划给个人或单位使用，确保售票的公开、公平、公正。\n3. **强化日常管理**：各单位需加强重点、群体用票的日常管理，联合相关部门对使用情况实行不定期抽查，确保抽查率不低于车站订票计划的15%。\n4. **记录详细**：抽查结果应在《订票申请单》上详细记录，一旦发现代订、代办等情况，将停办相关订票业务3至6个月，严重者取消订票资格，必要时转交铁路公安部门处理。\n5. **验票细则**：列车上对印有“○团”“○团○优”字样的车票需着重核查票、证、人的一致性，不一致者视作无票，并进行登记上报。\n6. **重点检查内容**：针对团体票使用进行定期与不定期抽查，对违反规定的行为追究管理人员责任，路上问题按相关路风管理办法处理。\n7. **管理责任制**：建立与业务同推进的党风廉政建设责任制，如发生违规行为，按程考核处理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "cc54ab9fb03f614b1c36f7a0bf179caa": {
+      "return": "### 办理旅游团体票的要求\n\n旅游企业需通过铁路互联网旅游团体票受理平台办理旅游团体票。具体办理流程如下：\n\n1. **线上方式办理**：\n   - 通过互联网旅游团体票受理平台提交《订票申请单》，并提供单位用票证明。\n   - 提供经办人身份证明和身份证复印件。\n   - 提供经办人联系方式。\n   - 提供企业工商营业执照、税务登记证、旅行社业务经营许可证的原件及复印件（如实行“三证合一”，提供合并核发的企业工商营业执照）。\n   - 提交承诺书（附件6）。\n\n2. **审核和确认**：\n   - 车站需对订票单位提交的资料进行严格审核。\n   - 提报的订票申请单应一视同仁接收和车票安排。\n   - 票务调整：若有剩余票，则推荐替代车次，确保团体票需求满足。\n\n3. **退票及改签**：\n   - 团体票的退票、改签等业务按照有效规章办理。\n\n4. **优惠条件**：\n   - 团体票的优惠政策适用：满20人免收1人票价，每增加10人免收1人票价（享受其他优惠的车票除外）。\n   - 若团体票未达到要求的兑现率，将面临警告或停办团体票申请的处罚。\n\n请注意务必通过互联网平台操作，办理过程中须遵守铁路相关管理规定。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "7a26dbcae434781364fe27f3fd4faa5f": {
+      "return": "根据《广州局集团公司重点、团体用票管理办法》，旅游企业旅游团体票的办票情况实行内部信用考核制度。具体规则如下：\n\n1. **审批和台账管理**：车站要求旅游企业在提交订票申请单时，要确保内容准确、真实，并由其行政正职或主管副职签字批准。这些内容会在车站的出票登记表中进行记录（包括出票记录和审批的《订票申请单》），确保重点和团体票使用有迹可循，做到“有审批、有登记、知去向”。\n\n2. **抽查和监督**：车站的收入路风部门会同客运（售票）部门会不定期抽查团体票的使用情况，达到一定抽查标准后，如发现代订、代办等情况，将立即暂停相关订票单位团体订票业务3到6个月，且如果此类行为二次发生，则立即取消其订票资格；若涉及炒票行为，则应及时上报铁路公安机关处理。\n\n3. **定期检查和考核**：集团公司客运部和收入路风部门也会不定期对重点、团体票的使用情况进行抽查，如果发现任何违反相关规定的行为，包括不按规范审批、用票管理不严格等问题，将依法依规追究责任人的责任，并按照《广铁集团路风管理办法》进行处理。严重的违反行为将根据《广州局集团公司党风廉政建设责任制实施办法（修订）》等相关规定进行考核处理。\n\n4. **票证人一致性核查**：在列车上验票验证时，如果票面印有“○团”或“○团○优”字样的团体内票，特别要求要重点检查票面信息、旅客身份证件以及本人的一致性，对不一致的情况按照无票处理。\n\n这些管理措施和考核机制共同构成了一个有效的信用管理框架，保证旅游企业的团体票使用符合规定，维护铁路运输的公平、公开、公正。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "a440bc1fc941177f7b8ea4e44b834b79": {
+      "return": "### 办理旅游团体票所需材料\n\n根据《广州局集团公司重点、团体用票管理办法》的有关规定，某旅游企业首次办理旅游团体票时，需要提交以下资料：\n1. 《订票申请单》一式两份，车站和订票单位各持一份，并提交加盖公章的单位用票证明。\n2. 经办人为订票单位正式员工或为固定合同工的证明，以及经办人与订票单位签订的劳动合同复印件（国家党、政、军机关及事业单位提供一项证明材料即可）。\n3. 经办人身份证原件及复印件、联系方式。\n4. 承诺书一份（见附件6）。\n5. 旅游企业需要额外提供以下文件：\n   * 工商营业执照原件及复印件。\n   * 税务登记证原件及复印件。\n   * 旅行社业务经营许可证原件及复印件。\n\n如旅游企业的营业执照、组织机构代码证和税务登记证三证合一，只需提供最新的企业工商营业执照复印件。相关证照原件首次申报时需在车站进行核对，原件返还后再由车站存档备查。\n\n### 线上办理旅游团体票流程\n\n若该旅游企业希望通过线上方式办理团体票，可以按照以下流程办理：\n1. 通过铁路互联网旅游团体票受理平台进行预订。\n2. 提供《订票申请单》并加盖公章，以及经办人身份证明和联系方式。\n3. 如为旅游企业，还需提交企业工商营业执照、税务登记证、旅行社业务经营许可证的原件及复印件，过去已核对过的材料无需再次提交。\n4. 任何书面材料留存需三年备查。\n\n具体使用其它平台细节及管理办法请参考《广州局集团公司互联网旅游团体票受理平台使用管理办法》（附件5）。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "67bb9e7617847427d5dbf71376091e7a": {
+      "return": "**旅游团体票的申请**\n\n如果一个旅行社想要为自己的旅游团从广州到长沙购买往返火车票，应该按照中国铁路广州局集团有限公司的《广州局集团公司重点、团体用票管理办法（修订）》操作。具体流程如下：\n\n1. **提交申请**：旅行社可以访问互联网旅游团体票受理平台提交团体票订单申请。值得注意的是，该办法是为了进一步方便旅游企业办理旅游团体票。\n2. **部门审批**：审批包含以下几个部门：\n   - **互联网旅游团体票受理平台**：用来处理团体票订单的申请和相关业务。\n   - **中国铁路广州局集团有限公司**：负责审批并协调资源确保订单的落实。\n3. **订单处理**：一旦审批完成，相关车票将被保留，直至最终确认后出票。\n\n**退票手续**\n\n如果旅行社因行程变更需要取消部分车票，可以通过以下流程办理退票手续：\n\n1. **列车预计晚点超过30分钟时**：售票站要及时启用“应急情况晚点原退”功能，旅客可通过12306网站（含手机APP）、自动售票机等渠道办理。\n2. **退票方法**：使用12306网站、手机客户端或前往售票厅通过自动售票机、人工窗口办理。所有的退票手续均免收退票手续费。\n3. **咨询客服**：如需进一步帮助，可联系客户服务部门，他们会提供指导，并协调相关单位妥善处理。 \n\n如需要在列车实际开车前办理，车站亦会增开人工退票窗口为期这次行程提供便利。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
     }
   },
   "mix": {
@@ -55,6 +271,240 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "登乘证的管理包括哪些内容"
+    },
+    "b7de4bbd399da0ccf09e1c94b9e45875": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u7533\\u8bf7\\u767b\\u4e58\\u5361\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u804c\\u8d23\", \"\\u5361\\u7247\\u53d1\\u653e\", \"\\u5b89\\u5168\\u7ba1\\u7406\", \"\\u8d44\\u8d28\\u5ba1\\u6838\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责"
+    },
+    "96b0684541f13114835790d6ec9ea13c": {
+      "return": "{\"high_level_keywords\": [\"\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "50d4f93473fdf97106a7b05e9ded62d9": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u53d1\\u5e03\\u65f6\\u95f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "6f6b704b2ae4492c4ce25b1fae4c05b3": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u76ee\\u7684\", \"\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\", \"\\u767b\\u4e58\\u7ba1\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "5897673d160da9f98806d6358798987d": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u65c5\\u5ba2\\u5217\\u8f66\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "7ebfb333e69c2a7e176130a3ac447616": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\", \"\\u79cd\\u7c7b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "c07a2a1bf1a5af635146e318d3203f2b": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u5206\\u7c7b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\\u957f\\u5ea6\", \"\\u8de8\\u5883\\u65c5\\u884c\", \"\\u7b7e\\u8bc1\", \"\\u901a\\u884c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "d67ce1ce82ae7fa427ed702128e3f4af": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u6709\\u6548\\u671f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "83c6b4ebb30dde9b7e31fa0e43d0fe7f": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4e2a\\u4eba\\u5361\\u7533\\u8bf7\"], \"low_level_keywords\": [\"\\u4eba\\u5458\\u8d44\\u683c\", \"\\u8de8\\u5883\", \"\\u4e2a\\u4eba\\u7528\\u6237\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "5c0a878f0799c4eda8a24785f7ff32a3": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5355\\u4f4d\\u8d44\\u683c\", \"\\u56fd\\u9645\\u65c5\\u884c\"], \"low_level_keywords\": [\"\\u6d77\\u5173\", \"\\u8fb9\\u68c0\", \"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u56fd\\u9645\\u8d27\\u8fd0\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\\u7533\\u8bf7\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "ca896c0686598de3a58be9f6c3c138ff": {
+      "return": "{\"high_level_keywords\": [\"\\u7528\\u7968\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u5217\\u8f66\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u91cd\\u70b9\\u7528\\u7968\", \"\\u56e2\\u4f53\\u7528\\u7968\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "24431374bef3b9d015e326025eb838e4": {
+      "return": "{\"high_level_keywords\": [\"\\u8ba2\\u7968\\u5408\\u540c\\u6237\\u7533\\u8bf7\", \"\\u5355\\u4f4d\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u65c5\\u884c\\u793e\", \"\\u4f01\\u4e1a\\u5ba2\\u6237\", \"\\u5408\\u540c\\u6237\\u8d44\\u683c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "7550c79f9a8707eb690f061fbfd4745a": {
+      "return": "{\"high_level_keywords\": [\"\\u673a\\u52a8\\u7968\\u5b9a\\u4e49\", \"\\u673a\\u52a8\\u7968\\u4f7f\\u7528\\u4f18\\u5148\\u6743\"], \"low_level_keywords\": [\"\\u673a\\u52a8\\u7968\", \"\\u4f18\\u5148\\u4f7f\\u7528\\u4eba\\u7fa4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "4674b84962cb1bc67365fca911ccd0f6": {
+      "return": "{\"high_level_keywords\": [\"\\u514d\\u7968\\u7b7e\\u8bc1\\u4e1a\\u52a1\", \"\\u8f66\\u7ad9\\u89c4\\u5b9a\", \"\\u7968\\u52a1\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u6bcf\\u5217\\u8f66\\u514d\\u7968\\u4e0a\\u9650\", \"\\u65e5\\u7d2f\\u8ba1\\u4e0a\\u9650\", \"\\u8f66\\u7ad9\\u4e1a\\u52a1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "73ebefc45a20869af29ab89bf2b50b82": {
+      "return": "{\"high_level_keywords\": [\"\\u8f66\\u7ad9\\u670d\\u52a1\", \"\\u7b7e\\u8bc1\\u529e\\u7406\", \"\\u514d\\u7968\\u653f\\u7b56\"], \"low_level_keywords\": [\"\\u8f66\\u7ad9\", \"\\u514d\\u7968\\u7b7e\\u8bc1\", \"\\u7279\\u5b9a\\u6761\\u4ef6\", \"\\u975e\\u672c\\u7ad9\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "6047e6c8e747040b195d2b81e28cd375": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b9a\\u4e49\", \"\\u65f6\\u6bb5\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\", \"\\u8d2d\\u7968\\u65f6\\u6bb5\", \"\\u7279\\u6b8a\\u65f6\\u6bb5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "c6871cfc31284ece1dbc039765f520a1": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b89\\u6392\", \"\\u5ba2\\u5ea7\\u7387\\u63a7\\u5236\", \"\\u9884\\u552e\\u671f\\u5916\\u914d\\u989d\"], \"low_level_keywords\": [\"\\u5217\\u8f66\\u5ba2\\u5ea7\\u738780%\\u4ee5\\u4e0a\", \"\\u56e2\\u4f53\\u7968\\u914d\\u989d\\u6bd4\\u4f8b\", \"\\u4e0a\\u4e00\\u5e74\\u540c\\u671f\", \"\\u9884\\u552e\\u671f\\u5b89\\u6392\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "d7b8cc492f087b64792d8c772c02e2ab": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u7533\\u8bf7\", \"\\u8d44\\u6599\\u63d0\\u4ea4\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\"], \"low_level_keywords\": [\"\\u5355\\u4f4d\\u8bc1\\u660e\", \"\\u4eba\\u5458\\u540d\\u5355\", \"\\u65c5\\u6e38\\u5408\\u540c\", \"\\u8425\\u4e1a\\u6267\\u7167\", \"\\u56e2\\u4f53\\u8bc1\\u660e\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "23ff0d2a9d583c3cc56457dbb8b3b539": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u8c03\\u62e8\\u7533\\u8bf7\", \"\\u5ba2\\u8fd0\\u90e8\\u64cd\\u4f5c\\u6d41\\u7a0b\"], \"low_level_keywords\": [\"\\u7ad9\\u6bb5\\u7533\\u8bf7\", \"\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u5ba2\\u8fd0\\u90e8\", \"\\u56e2\\u4f53\\u7968\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "cc18eb3e3bf671d68ce05551fba7e40d": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u552e\\u7968\\u5904\\u7406\", \"\\u65e5\\u5e38\\u53f0\\u8d26\\u7ba1\\u7406\", \"\\u76d1\\u7763\\u68c0\\u67e5\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\", \"\\u552e\\u7968\\u6d41\\u7a0b\", \"\\u53f0\\u8d26\\u8bb0\\u5f55\", \"\\u8d22\\u52a1\\u7ba1\\u7406\", \"\\u670d\\u52a1\\u8d28\\u91cf\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "67aca65f6befe6cf54947f80632c1eca": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u5e73\\u53f0\", \"\\u670d\\u52a1\\u5bf9\\u8c61\"], \"low_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\", \"\\u65c5\\u884c\\u793e\", \"\\u56e2\\u961f\\u6e38\\u5ba2\", \"\\u5728\\u7ebf\\u9884\\u8ba2\", \"\\u4ef7\\u683c\\u4f18\\u60e0\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是旅游团体票平台，以及该平台的服务对象是什么？"
+    },
+    "ebfbca042c4ea1595ed3035909e9a9f4": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u4f01\\u4e1a\", \"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u5e73\\u53f0\", \"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u7533\\u8bf7\", \"\\u9884\\u5b9a\\u6d41\\u7a0b\", \"\\u4ef7\\u683c\\u653f\\u7b56\", \"\\u56e2\\u961f\\u4f18\\u60e0\\u653f\\u7b56\", \"\\u65c5\\u884c\\u793e\\u5408\\u4f5c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "cdca6f952c0ddc5ab5468f4fc55220ac": {
+      "return": "{\"high_level_keywords\": [\"\\u94c1\\u8def\\u90e8\\u95e8\\u4fe1\\u7528\\u8003\\u6838\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\\u56e2\\u4f53\\u529e\\u7968\", \"\\u5185\\u90e8\\u7ba1\\u7406\\u5236\\u5ea6\"], \"low_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\", \"\\u4fe1\\u7528\\u8bc4\\u4ef7\", \"\\u8003\\u6838\\u6807\\u51c6\", \"\\u94c1\\u8def\\u8fd0\\u8f93\", \"\\u4f01\\u4e1a\\u4fe1\\u7528\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "5d11125fe0c2a4641711e25716295d1e": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u529e\\u7406\", \"\\u5de5\\u5546\\u8425\\u4e1a\\u6267\\u7167\", \"\\u7ebf\\u4e0a\\u65b9\\u5f0f\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u9996\\u6b21\\u529e\\u7406\", \"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u6ce8\\u518c\\u5730\", \"\\u624b\\u7eed\\u6d41\\u7a0b\", \"\\u7ebf\\u4e0a\\u64cd\\u4f5c\\u65b9\\u6cd5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "ab203023fd8c596ef73468c62867ec1b": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u884c\\u793e\\u64cd\\u4f5c\", \"\\u706b\\u8f66\\u7968\\u8d2d\\u4e70\", \"\\u9000\\u7968\\u6d41\\u7a0b\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u6ce8\\u518c\", \"\\u5f80\\u8fd4\\u706b\\u8f66\\u7968\", \"\\u5e7f\\u5dde\\u5230\\u957f\\u6c99\", \"\\u884c\\u7a0b\\u53d8\\u66f4\", \"\\u90e8\\u5206\\u8f66\\u7968\\u53d6\\u6d88\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
+    },
+    "b4887541d2c08124c02fb128068ae72a": {
+      "return": "{\"high_level_keywords\": [\"\\u7ea2\\u8272\\u65c5\\u6e38\", \"\\u56e2\\u4f53\\u7968\\u7533\\u8bf7\", \"\\u5408\\u540c\\u7b7e\\u8ba2\"], \"low_level_keywords\": [\"\\u53bf\\u7ea7\\u4eba\\u6c11\\u653f\\u5e9c\", \"\\u4e95\\u5188\\u5c71\", \"\\u8ba2\\u7968\\u5408\\u540c\", \"\\u7533\\u8bf7\\u6750\\u6599\", \"\\u6750\\u6599\\u5ba1\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某单位是县级人民政府，计划组织一次去井冈山的红色旅游，需要购买团体票。根据本办法，该单位是否可以与车站签订订票合同？在申请团体票时，需要提供哪些材料？如果车站在接收申请后，发现该单位提供的材料不符合要求，应该如何处理？"
     }
   },
   "hybrid": {
@@ -75,6 +525,24 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "广州南、长沙站在一级应急响应和四级应急响应中的标准有哪些不同？"
+    },
+    "cb5633855ebb50e546e4e874a28cf3f4": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u7533\\u8bf7\\u767b\\u4e58\\u5361\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u804c\\u8d23\", \"\\u4f7f\\u7528\\u76d1\\u7ba1\", \"\\u5b89\\u5168\\u8d23\\u4efb\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责"
+    },
+    "030c3bf78fa8fdaec025f96ea6825f01": {
+      "return": "根据知识库中的信息，申请登乘卡单位在登乘卡管理中主要负责以下职责：\n\n1. **信息录入和日常管理**：负责本单位登乘卡的信息录入，并进行日常管理，建立严格的登乘卡请领、保管、回收、缴交等制度。\n\n2. **劳资信息确认**：对本单位的劳动工资资及相关信息进行确认。只有广州局集团公司劳资管理信息系统中登记的未分配宿舍、常住地在集团管内、下班确需通勤回家的劳务工才能申请通勤登乘卡。通勤区间限定为从劳务工作地到登记的家庭常住地之间的区间。严禁超范围申请。\n\n3. **动态管理**：对本单位登乘卡持有者的动态管理，特别是人员调入调出或离职等变动情况的及时更新。\n\n4. **审核**：严格初审申请材料，确保申请通勤劳务工的资格符合条件。\n\n5. **配合其他部门**：与客运部、劳卫部、财务部等单位进行协作，确保登乘卡管理工作的顺利进行。\n\n这些职责确保了登乘卡的合理使用，并维护了登乘卡管理的规范性和安全性。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责"
     }
   },
   "global": {
@@ -95,6 +563,456 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "广州南、长沙站在一级应急响应和四级应急响应中的标准有哪些不同？"
+    },
+    "25d004694e0ede607fa1497469644408": {
+      "return": "{\"high_level_keywords\": [\"\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "4ebff21286029ddd5be2a6a6ac1cf2f6": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是中国铁路广州局集团有限公司。广州局集团公司是中国铁路系统的一部分，负责管理和发布各项与铁路运营相关的管理办法，包括登乘卡的管理。在实施过程中，具体的铁路局集团公司负责制定和管理实施细节，并由财务部监督登乘卡相关活动的请领、审核和发放。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "86147e20171fbee2eba9268678719f8c": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\", \"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\"], \"low_level_keywords\": [\"\\u53d1\\u5e03\\u65f6\\u95f4\", \"\\u89c4\\u7ae0\\u6587\\u4ef6\", \"\\u94c1\\u8def\\u8fd0\\u8f93\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "fdac120dea8d4128cff7516cde297fc2": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的具体发布时间未直接提供，但办法的文号是“广铁客发〔2019〕46号”，该编号用于标识正式发布的文件。通常文件编号与发布时间相关联，因此可以根据文件编号推测该办法在2019年发布。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "e7ab42bfe4f1be89c3928cd897379164": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\\u76ee\\u7684\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\", \"\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u89c4\\u8303\\u7ba1\\u7406\", \"\\u64cd\\u4f5c\\u6d41\\u7a0b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "920d63acda2154e4ba89a035346ec59f": {
+      "return": "制定《广州局集团公司旅客列车登乘卡管理办法》的主要目的是为了加强旅客列车登乘管理，确保广州局集团公司管辖范围内的旅客列车以及广深港高铁跨境运输的安全与秩序，同时维护客运站车的良好秩序。此管理办法是根据中国铁路总公司的相关规定，并结合广州局集团公司的实际工作情况特别制定的。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "e6aaaff04adc6a91b0b751d688a2c406": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u7ba1\\u7406\\u89c4\\u5b9a\", \"\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "80d37bf1060a3e085141ff7e3251a036": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》适用范围如下：\n\n**第一条**：为加强旅客列车登乘管理，确保集团公司管内及广深港高铁跨境运输安全有序，维护客运站车良好秩序，根据总公司相关规定并结合集团公司工作实际，特制定此办法。管理办法适用于集团公司管辖的范围内及广深港高铁跨境运输管理。\n\n**第二条**：具体适用对象为广州局集团公司管内的客运车站，以及由广州局集团公司担当的旅客列车。这包括从福田站至香港西九龙站内地口岸区运行的所有动车组列车。\n\n这意味着，该管理办法涵盖了集团公司所管理的客运服务，特别是要求所有符合规定条件的人员在使用登乘卡时，必须遵守管理办法，以强化旅客列车登乘的规范性管理，并确保广深港高铁跨境运输的安全和有序。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "9d74bfdab96b8f107998872f08e06fa1": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "f176cad941417020bf34dcfe264339f6": {
+      "return": "登乘卡主要分为以下几类：\n\n1. **跨境登乘卡（跨境动车组登乘卡）**：分为公用卡和个人卡，个人卡有效期为一年，个人办理人员包括跨境动车组内的保洁人员和餐饮人员、需要频繁检查或支援跨境动车组的集团公司的管理人员。公用卡有效期为三年，主要用于与跨境运输相关的集团公司内部部门和单位。\n\n2. **旅客列车登乘卡**：分为通勤登乘卡和维保登乘卡，两种卡的有效期均为一年。通勤登乘卡应用于集团公司劳卫部登记在册但未分配单身宿舍的劳务工，他们需要在其劳动和家庭常住地之间进行通勤。维保登乘卡供与车辆及各类车载设备相关的路外设备厂家人员、客运站车保洁单位相关管理人员、动车组餐饮公司相关人员、委外保安公司的相关管理人员以及其他因特殊情况被批准的人使用。\n\n各类登乘卡仅限在集团公司管内使用的旅客列车上，不可使用于超出规定的区间或外局或港铁的列车上。登乘过程必须注意对应的使用限制。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "afc4ba2898f25ec116e0e91250775be1": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u5177\\u4f53\\u79cd\\u7c7b\", \"\\u6301\\u5361\\u671f\\u9650\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "205046e6d2969254decc382c2181c3bd": {
+      "return": "跨境登乘卡主要分为个人卡和公用卡两种类型。个人卡的有效期为1年，而公用卡的有效期为3年。这两种类型的卡片主要用于跨境运输，确保相关的维护和作业人员能够顺利进出特定区域，并有规定的有效期以便管理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "21af8313347e9aa5b78720002abeb04e": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u6709\\u6548\\u671f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "fa2e659b1514de497b3eba5f3a76ed6e": {
+      "return": "通勤登乘卡和维保登乘卡的有效期均为1年。这意味着这两类登乘卡的持有者可以在有效期内在规定范围内乘坐集团公司管内的动车组列车二等座，但通勤登乘卡主要用于劳务工从工作地到家庭常住地之间的通勤，而维保登乘卡主要用于车辆及车载设备等有关的路外设备厂家人员以及相关管理人员。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "9d4f8a5cbae5d5e6f97e201bd166f573": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4e2a\\u4eba\\u5361\\u7533\\u8bf7\"], \"low_level_keywords\": [\"\\u529e\\u5361\\u4eba\\u5458\", \"\\u7533\\u8bf7\\u6761\\u4ef6\", \"\\u8d44\\u683c\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "bee9d40089cdf66eeae88b06ed65f9fc": {
+      "return": "根据知识库提供的信息，可以办理跨境登乘卡个人卡的人员范围如下：\n\n1. **跨境动车组车内保洁人员**\n2. **跨境动车组餐饮人员**\n3. **集团公司机关、跨境运输相关单位每月需多次检查、支援跨境动车组或香港西九龙站内地口岸区的管理人员**\n\n这些人员限定在集团公司管内，跨境登乘卡的有效期为1年。具体登乘卡样式详见知识库中的附件1。\n\n此外，使用这些登乘卡时，劳务工须同时出示本人的二代居民身份证；其他人员则须同时出示本人的工作证或二代居民身份证。需要注意的是，这些登乘卡仅限于在规定的有效期内，在特定的有效区间和指定的集团公司担当的旅客列车上乘坐，不得超出规定范围使用，并且在使用过程中不得乘坐外局或港铁担当的列车。在涉及到跨境使用时，也要确保遵守内地口岸区域的限制。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "e62e188b30769629fe7baecc87d64e8e": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u529e\\u7406\\u5355\\u4f4d\"], \"low_level_keywords\": [\"\\u6d77\\u5173\", \"\\u8fb9\\u68c0\", \"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u653f\\u5e9c\\u673a\\u6784\", \"\\u51fa\\u5165\\u5883\\u7ba1\\u7406\\u5c40\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "db6303e28bdca4e9cb884b4fef084e26": {
+      "return": "跨境登乘卡的公用卡可以由与跨境运输相关的广州局集团公司机关部门和单位办理。这些单位在规定的有效期内，可以使用跨境登乘卡在集团公司管内车站进出，并乘坐规定的区段内的集团公司担当的旅客列车。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "9886fa76497dbf6b3eae6a820a5f68d6": {
+      "return": "{\"high_level_keywords\": [\"\\u7528\\u7968\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u5217\\u8f66\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u91cd\\u70b9\\u7528\\u7968\", \"\\u56e2\\u4f53\\u7528\\u7968\", \"\\u5217\\u8f66\\u7c7b\\u578b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "3534c01f6fab4d38590479e35fca7fb4": {
+      "return": "《广州局集团公司重点、团体用票管理办法》适用于广州局集团公司管内的所有客运车站及广州局集团公司担当的旅客列车。这包括了从广州局集团公司管理区域内的站点出发和到达的各类旅客列车。特别地，管理办法也适用于福田站至香港西九龙站内地口岸区和跨境行驶的动车组，具体来说就是涉及广深港高铁的跨境运输。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "f2194a6819556457c976b3014e4916a1": {
+      "return": "{\"high_level_keywords\": [\"\\u8ba2\\u7968\\u5408\\u540c\\u6237\\u7533\\u8bf7\", \"\\u5355\\u4f4d\\u7c7b\\u578b\"], \"low_level_keywords\": [\"\\u65c5\\u884c\\u793e\", \"\\u4f01\\u4e1a\\u5355\\u4f4d\", \"\\u5b66\\u6821\", \"\\u653f\\u5e9c\\u673a\\u6784\", \"\\u56e2\\u4f53\\u7968\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "a76baf219fde34ba85992664751ac160": {
+      "return": "按照《广州局集团公司重点、团体用票管理办法》的规定，以下单位可以申请建立订票合同户：\n\n1. **县级以上（含县级）党、政、军机关**：这些机关凭单位证明可向各站段（公司）提出申请。申请需要经过站段（公司）党政联席会议通过，并由行政正职或主管副职签字。具体的申请流程和需要填写的资料，包括单位证明和联系方式等，需严格遵守管理办法中的相关条款（如第三条至第七条）。\n\n2. **其他单位**：包括企事业单位、旅行社、酒店、宾馆等，这些单位是不符合条件的，因此不能申请建立订票合同户，也不得签订任何具有约束效力的订票合同或协议（详见第三条）。\n\n符合订票合同户条件的党、政、军机关在申请订票合同时需递交单位证明。这一过程需经过站段（公司）党政联席会议的讨论和同意。若申请得到通过并由行政正职或主管副职签字后，即确立了合同户关系。站段（公司）应保留这些单位的证明原件，同时将合同户的相关信息进行汇总和留存，以备后续管理和核查使用。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "cffc2d67f19f271d199b926d3c51da80": {
+      "return": "{\"high_level_keywords\": [\"\\u673a\\u52a8\\u7968\", \"\\u4f18\\u5148\\u6743\"], \"low_level_keywords\": [\"\\u5b9a\\u4e49\", \"\\u4f18\\u5148\\u4f7f\\u7528\\u7fa4\\u4f53\", \"\\u7279\\u6b8a\\u6743\\u76ca\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "ac5b8eb106cce1ece357b28038a754b9": {
+      "return": "机动票是一种由集团公司负责管理和发布的票种，各级单位在使用时需要遵循相关的规定。（根据Knowledge Base中的第9个实体“机动票管理”描述）\n\n用票单位如国家党、政、军机关等可以在必要时向集团公司申请使用机动票。（根据Knowledge Base中的第4个关系“用票单位”到“集团公司”的描述）\n\n具体的申请流程通常需要通过提交订票申请单由用票单位向集团公司或车站申请机动票。这些申请单需要包含详细的信息，并需经过审批后方可使用。（结合第29和第4个关系中“订票申请单”与“用票单位”及“集团公司”的描述）",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "4d679cb82634e8f710ec0a1c6f28e641": {
+      "return": "{\"high_level_keywords\": [\"\\u514d\\u7968\\u7b7e\\u8bc1\\u4e1a\\u52a1\", \"\\u8f66\\u7ad9\\u89c4\\u5b9a\", \"\\u65e5\\u7d2f\\u8ba1\\u4e0a\\u9650\"], \"low_level_keywords\": [\"\\u6bcf\\u5217\\u8f66\", \"\\u514d\\u7968\\u5f20\\u6570\", \"\\u8f66\\u7ad9\\u529e\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "16389de77f4f721c9f5c08fd2a90a3a0": {
+      "return": "根据提供的知识库，关于车站办理免票签证业务的日累计上限张数没有明确的具体规定。因此，无法直接从知识库中找到每一列车办理免票签证业务的日累计上限数量的信息。相关规则和条款可能涉及更具体的内部细则或特定操作规范，但这些信息未在提供的知识库中详细列出。如需了解详细规定，可能需要参阅具体的内部管理文件或联系相关管理部门。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "4c8a100ea5a18beb14a3538993284f54": {
+      "return": "{\"high_level_keywords\": [\"\\u8f66\\u7ad9\\u7b7e\\u8bc1\", \"\\u514d\\u7968\\u653f\\u7b56\", \"\\u4e58\\u8f66\\u89c4\\u5219\"], \"low_level_keywords\": [\"\\u975e\\u672c\\u7ad9\\u7b7e\\u8bc1\", \"\\u7279\\u5b9a\\u60c5\\u51b5\\u4e0b\", \"\\u514d\\u7968\\u6761\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "e551e1fb3aa9d5b6abfd3e489a42bcbb": {
+      "return": "车站可以在中国铁路系统的特定条件下为非本站的免票签证提供办理服务。例如，当外局单位的职工需要出差时，售票站可以为这些职工办理免票签证（关系 36）。此外，根据关系 38，售票站还可以凭调度命令为特定情况下的免票签证办理手续。这些情形中，售票站可能需要遵循铁路集团公司的具体规定和上级部门的指令才能处理非本站的免票签证申请。行政正职或主管副职有权审批此类免票签证申请（关系 38）。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "fe596733920c83d967b8d2cc13104a95": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b9a\\u4e49\", \"\\u529e\\u7406\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u7279\\u5b9a\\u65f6\\u6bb5\", \"\\u8d2d\\u7968\\u89c4\\u5219\", \"\\u56e2\\u4f53\\u7968\\u653f\\u7b56\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "b5e4ce8af9d347a683b90f4c148db3c2": {
+      "return": "团体票的定义是指一次购买20张及以上，乘车日期、车次、到站及座别相同的车票。这种类型的购票方式主要用于旅游团体或特定组织的需求。\n\n根据相关规定，团体票的办理有一些特定时段限制，主要是指以下部地区在指定时段内不能办理团体票：\n- 广州、深圳、东莞、惠州等地区的春运第一天至除夕；\n- 湛江、茂名、潮汕、梅州等地区的正月初三至初七；\n- 湖南等地区的正月初三至十八；\n- 海南地区的春运第一天至正月十八。\n\n在这些指定时间以外的其他时段，各单位可以根据需要正常申请团体票。这些限制是为了确保特定高峰期（例如春节假期和冬季寒假期间）旅客能够享受充足的座位资源，以满足零散旅客的需求。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "501739ff4ffde71ddb58821bc8e122e9": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b89\\u6392\", \"\\u5ba2\\u5ea7\\u7387\\u63a7\\u5236\", \"\\u9884\\u552e\\u671f\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u989d\", \"\\u5ba2\\u5ea7\\u738780%\", \"\\u5217\\u8f66\", \"\\u9884\\u552e\\u671f\\u5916\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "2c995d5a2cf767969c3cb6b84e2cba23": {
+      "return": "对于上一年按日同期客座率80%以上的列车，在预售期外可以安排一定比例的团体票额。具体数据表明，这类列车可以在预售期外安排一定比例的团体票额，但没有提供具体的比例数值。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "9522644b1d68c62b94a4d22a0d6fe0d8": {
+      "return": "{\"high_level_keywords\": [\"\\u8d2d\\u7968\\u7533\\u8bf7\", \"\\u56e2\\u4f53\\u7968\", \"\\u8d44\\u6599\\u63d0\\u4ea4\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\"], \"low_level_keywords\": [\"\\u5355\\u4f4d\\u4fe1\\u606f\", \"\\u8d2d\\u7968\\u4eba\\u6570\", \"\\u8054\\u7cfb\\u65b9\\u5f0f\", \"\\u8425\\u4e1a\\u6267\\u7167\", \"\\u65c5\\u6e38\\u8bb8\\u53ef\\u8bc1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "743ddbdb3a30a566aa75af3e1df86edb": {
+      "return": "如果单位需要申请购买团体票，应向车站提交以下资料：\n\n1. **《订票申请单》**：一式两份，车站和订票单位各持一份，并需加盖公章的单位用票证明。\n2. **经办人资格证明**：经办人为订票单位正式员工或固定合同工的证明及与订票单位签订的劳动合同复印件（对于国家党、政、军机关及事业单位，仅需提供一项证明材料）。\n3. **经办人个人资料**：身份证原件及复印件以及联系方式。\n4. **承诺书**：表格需参照附件内容来填写。\n\n对于用票单位为旅游企业的情况，还需额外提供：\n\n- **企业工商营业执照原件及复印件**。\n- **税务登记证原件及复印件**。\n- **旅行社业务经营许可证原件及复印件**。\n\n如果该旅游企业所在地已实行“三证合一”政策，仅需提供合并核发后的企业工商营业执照即可。相关证照的原件会在车站核验后交还单位，复印件则由车站存档备查。当条件发生变化时，需要及时通知车站办理变更手续。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "bf54f62f50dc1f6ef233c67d4b33a6fa": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u8c03\\u62e8\", \"\\u7533\\u8bf7\\u6d41\\u7a0b\", \"\\u5ba2\\u8fd0\\u90e8\\u64cd\\u4f5c\"], \"low_level_keywords\": [\"\\u7ad9\\u6bb5\", \"\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u7533\\u8bf7\\u8868\\u683c\", \"\\u5ba1\\u6279\\u6d41\\u7a0b\", \"\\u56e2\\u4f53\\u7968\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "74b0745586e109ad34f55502dfae3267": {
+      "return": "站段需要向集团公司客运部申请团体票调拨时，应按照以下步骤执行：\n\n1. 填写《团体用票申报单》并需要行政正职或主管副职签字同意。\n2. 在申请前，确保已加盖单位公章，并将该表传真至集团公司客运部客票管理所。\n3. 同时致电确认申请的提交。\n4. 预售期外的申请应于车票开售后1至2个工作日12点前提报。\n\n集团公司客运部在符合总量上限控制的前提下，将按照“效益最大化、兼顾重点”的原则统一调配团体票。站段需根据集团公司客运部的调拨结果来具体办理团体票的制票流程。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "cd57ea64104fc9c2eea327855d846825": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u552e\\u7968\\u5904\\u7406\", \"\\u65e5\\u5e38\\u53f0\\u8d26\\u7ba1\\u7406\", \"\\u76d1\\u7763\\u68c0\\u67e5\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\", \"\\u552e\\u7968\\u6d41\\u7a0b\", \"\\u53f0\\u8d26\\u8bb0\\u5f55\", \"\\u5185\\u90e8\\u5ba1\\u6838\", \"\\u5236\\u5ea6\\u9075\\u5b88\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "baf96df6db25d3dd8a52c470cf20f33d": {
+      "return": "### 团体售票处理流程\n\n车站需遵循以下步骤处理团体售票：\n1. **提交申请单**：需要申请购买团体票的单位应向车站提交《订票申请单》，以及其他必要的文件（例如单位用票证明、经办人相关证明和身份证件的复印件、承诺书等）。旅游企业还需提供工商营业执照、税务登记证、旅行社经营许可证等文件（如果适用）。\n2. **资料审核**：车站部门应仔细审核提交的文件，确保资料齐全准确，同时需确保所有单位在接收和车票安排环节得到一视同仁的待遇。\n3. **团体票办理**：对于通过审核的申请，车站负责团体票的办理，包括车辆客座率的总量上限控制、该操作具体依据列车的往年客座率等。之外，单位可在超过预订期限后，根据剩余票量满足团体票要求。\n4. **团体票申报单**：站段若需向集团公司客运部申请团体票调配，应填写并传真《团体用票申报单》，并确保在开售前提前向集团公司客运部申请。\n\n### 台账管理与监督检查\n\n车站还负责以下日常台账管理与监督检查环节：\n1. **台账资料管理**：车站需按要求填写并保留《订票合同户汇总统计表》，记录详细的合同户相关信息，包括单位证明原件、单位名称、地址、联系人和电话、订票合同号等。\n2. **台账审核与上报**：各客运站段应每月总结商务座服务人数及考核情况，并按照季度向财务部汇报，为问卷和结算提供依据。\n3. **台账审查**：财务部负责监督商务座服务费及相关实体资料的审查，确保资金使用的准确性和合规性。同时，广州局集团公司负责管理台账，并相应制定和发布详细的台账管理细则。\n4. **监督检查**：收入路风部门以及收入稽查人员需与客运售票部门合作，对票务使用情况进行监察，确保公平公正的操作流程。特别是对团体票的售票情况，需要确保透明度和公正性，与出票记录保持一致。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "1788d635bb4780d3ea9a34f11d232fa9": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u5e73\\u53f0\", \"\\u670d\\u52a1\\u5bf9\\u8c61\"], \"low_level_keywords\": [\"\\u65c5\\u884c\\u793e\", \"\\u56e2\\u4f53\\u7968\", \"\\u65c5\\u6e38\\u56e2\", \"\\u6e38\\u5ba2\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是旅游团体票平台，以及该平台的服务对象是什么？"
+    },
+    "133b6dacf240274394ed29c889422784": {
+      "return": "### 旅游团体票平台\n\n**定义**： \n旅游团体票平台是为管理和受理旅游团体票申请而设立的一个在线平台。该平台是用于接受和管理通过互联网提交的旅游团体票申请的在线渠道，旨在方便旅游团体票的申请管理流程，确保相关需求得以及时和规范处理。\n\n**服务对象**：\n- 旅游企业：指提供旅游服务的企业，是申请和办理旅游团体票的主要对象。\n- 旅游企业定义为从事旅游业经营的单位，能够提交特定的证件材料来申请和办理团体票。\n\n### 旅游企业申请团体票的方式\n- 旅游企业应通过线上平台或线下方式提出团体票申请。如果条件允许，建议使用线上方式，即通过“铁路互联网旅游团体票受理平台”来申请。线上申请的具体管理办法依据《广州局集团公司互联网旅游团体票受理平台使用管理办法》执行。\n- 对于确实需要采取线下方式办理的特殊情况，必须提供相应的书面材料，并需保留三年作为后续审查使用。\n\n### 广州局集团公司与旅游企业的关系\n- 企业需具备一定的资质证明，提交工商业务执照、税务登记证和许可证等，并根据区域实际情况决定是否合并使用某些证件。\n- 首次申请时需向车站提交原件，车站审核一致后归还，之后再次申请时，附件资料无需重复提供。\n\n以上即是对旅游团体票平台信息及其服务对象的介绍。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是旅游团体票平台，以及该平台的服务对象是什么？"
+    },
+    "7bbdfc549966d037a032eb11c58237eb": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u4f01\\u4e1a\", \"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\", \"\\u5e73\\u53f0\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u65c5\\u884c\\u793e\", \"\\u56e2\\u4f53\\u7968\\u9884\\u8ba2\", \"\\u7968\\u52a1\\u7cfb\\u7edf\", \"\\u65c5\\u884c\\u793e\\u5ba2\\u6237\", \"\\u65c5\\u6e38\\u56e2\\u7ec4\\u7ec7\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "b78af6a6c00a0051c3db30c4c7a7a386": {
+      "return": "旅游企业可以通过以下步骤利用互联网旅游团体票平台办理旅游团体票：\n\n1. **在线平台申请**：\n   - **平台利用**：中国铁路广州局集团有限公司提供了一个互联网旅游团体票受理平台，用于受理和管理旅游团体票申请。\n   - **申请指南**：广州局集团公司制定和发布了相关的管理办法，确保旅游团体票的受理流程规范有序。\n\n2. **提交必要材料**：\n   - **证明文件**：旅游企业需要提交必要的证件材料，包括企业工商营业执照、税务登记证、以及旅行社业务经营许可证的原件及复印件。如果旅游企业所属地已实行“三证合一”，提交合并后的营业执照即可。\n   - **证件一致性**：相关证照原件需首次申报时核对一致，原件由车站核对后交还旅游企业，而复印件由车站存档备查。再次申请时无需重复提交。若发生变更，需及时与车站联系办理。\n\n3. **遵循申请流程**：\n   - **在线与线下结合**：原则上，旅游企业应通过线上方式申请旅游团体票。但在特殊情况下，可采取线下方式办理，所有纸质材料需要保留三年备查。\n   - **团体票管理**：旅游企业必须遵守《广州局集团公司互联网旅游团体票受理平台使用管理办法》的相关规定，并确保所提供信息的准确性。\n\n以上步骤确保了旅游团体票申请过程的规范性及透明度，使旅游企业在购团体票时享受实惠。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "b4f49008c2ba5575659ac6c3b45d8b22": {
+      "return": "{\"high_level_keywords\": [\"\\u94c1\\u8def\\u90e8\\u95e8\\u7ba1\\u7406\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\\u4fe1\\u7528\", \"\\u56e2\\u4f53\\u529e\\u7968\\u5236\\u5ea6\"], \"low_level_keywords\": [\"\\u5185\\u90e8\\u4fe1\\u7528\\u8003\\u6838\", \"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\", \"\\u94c1\\u8def\\u4fe1\\u7528\\u4f53\\u7cfb\", \"\\u8003\\u6838\\u6807\\u51c6\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "8e4ff756cff839c203d556ecd0ef1e0e": {
+      "return": "根据《广州局集团公司重点、团体用票管理办法》，旅游企业在办理旅游团体票时需提供必要的证明材料，其中包含工商营业执照、税务登记证、以及旅行社业务经营许可证等文件。这些标准材料提交给车站后，车站要对其提交的材料进行严格审核，旨在保障申请过程的规范性和可控性。\n\n对于旅游团体票的内部信用考核制度，办法并没有具体规定，但给出了一个基本框架，即在团体票的投递、分配以及使用过程中进行严格的监控和管理。具体地说，《第十九条》规定了团体用票兑现率的要求：\n\n1. 车票开售当天制票可按实际需求办理，不进行兑现率考核。\n2. 在车票开售后至开车前8天内，订票单位有一次确认票额的机会，确认兑现率原则上应在70%以上，达不到此兑现率，可能被取消该批团体用票计划。计划确认后，需在开车前5天内完成制票，制票兑现率应在80%以上。\n3. 若团体票的兑现率初次低于80%，将被警告；第二次低于80%，该单位的团体票申请将会被暂停1个月；第三次低于80%，该单位的团体票申请将会被暂停2个月。\n\n这些规定本质上构成了对旅游团体票办理信用等级的考核制度，通过监控和评估旅游企业的订票行为，确保其符合铁路部门的相关管理要求。按照此制度，旅游企业在提交订票申请时需保持较高的兑现率，从而证明其订票行为对铁路运力的高效利用，进而维持良好的信用记录，否则可能会面临处理限制或暂停合作的风险。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "632cec8c4d63220fb53c7d3430edb391": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u529e\\u7406\", \"\\u5de5\\u5546\\u8425\\u4e1a\\u6267\\u7167\", \"\\u7ebf\\u4e0a\\u529e\\u7406\\u6d41\\u7a0b\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u624b\\u7eed\\u529e\\u7406\", \"\\u7ebf\\u4e0a\\u64cd\\u4f5c\", \"\\u6ce8\\u518c\\u5730\", \"\\u56e2\\u4f53\\u7968\\u7533\\u8bf7\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "555e11790c5bee3cef0a9d9c03034eec": {
+      "return": "### 办理旅游团体票所需手续\n\n旅游企业首次办理旅游团体票时，需要提交以下资料：\n1. **《订票申请单》（一式两份）**：一份由车站保存，另一份由订票单位保存；同时附带加盖公章的单位用票证明。\n2. **经办人证明**：需要提供经办人为订票单位正式员工或固定合同工的证明，以及经办人与订票单位签订的劳动合同的复印件。对于国家党、政、军机关及事业单位，提供一项证明材料即可。\n3. **经办人身份验证**：经办人身份证原件及复印件、联系方式。\n4. **承诺书**：根据指引提供相关承诺文档原件。\n5. **额外的证明材料**（仅适用于旅游企业）：企业工商营业执照、企业税务登记证（或组织机构代码证）、旅行社业务经营许可证的原件及复印件，或者在实行“三证合一”的地区，只需提供合并核发后的营业执照（验证后返回原件，复印件留存）。\n\n### 线上方式办理团体票步骤\n\n若旅游企业希望通过铁路互联网旅游团体票受理平台以线上方式办理团体票，具体操作如下：\n1. **提交《订票申请单》**：按照规定的格式填写并提交《订票申请单》，附相关新闻证明材料。\n2. **依据平台操作指南执行**：按照《广州局集团公司互联网旅游团体票受理平台使用管理办法》的规定，在互联网旅游团体票受理平台进行操作。\n3. **审核与反馈**：车站会审核提交的材料，确保其合规性。审核通过后，铁路方会在平台上反馈结果，允许企业进行后续操作。\n4. **获得并使用团体票**：团体票成功办理后，企业按照规定使用相符的凭证。\n\n确保按照上述步骤操作，并严格遵守相关规定。所有材料和凭据需符合实名制要求，以确保票务流程的准确性和安全性。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "bbdda4bcca4adad6fce69a206574bf73": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u884c\\u793e\\u64cd\\u4f5c\", \"\\u706b\\u8f66\\u7968\\u8d2d\\u4e70\", \"\\u9000\\u7968\\u624b\\u7eed\", \"\\u6d41\\u7a0b\\u548c\\u90e8\\u95e8\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u6ce8\\u518c\", \"\\u5f80\\u8fd4\\u706b\\u8f66\\u7968\", \"\\u884c\\u7a0b\\u53d8\\u66f4\", \"\\u53d6\\u6d88\\u8f66\\u7968\", \"\\u9000\\u7968\\u624b\\u7eed\\u529e\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
+    },
+    "9ec5cdd06da59f050d026c0f518a5c94": {
+      "return": "### 申请团体票的流程\n\n1. **旅行社申请**：\n   - 旅行社首先需要访问广州局集团公司提供的在线平台（如互联网旅游团体票受理平台）或者联系相关客运站进行申请。\n   - 申请时，旅行社应符合《广州局集团公司重点、团体用票管理办法》中关于旅游企业的规定。\n   \n2. **提交订票申请单**：\n   - 旅行社按照规范填写《订票申请单》，并将其提交给相应的客运站或客调。\n   - 申请单需包含详细的旅游行程和票务需求，以及旅行社的有关证明材料。\n\n3. **审批流程**：\n   - 客运站或客调收到申请单后，会在《广州局集团公司重点、团体用票管理办法》规定下进行审批，确保申请符合要求。\n   - 审批后，与旅行社签订《订票合同》。\n\n4. **订票和确认车次**：\n   - 审核通过后，客运站或客调将按照旅行社的申请条件安排车次，并确认车次和座位数量。\n   - 订票申请的信息和订票的具体安排会在核实后反馈给旅行社。\n\n### 退票流程\n\n1. **申请退票**：\n   - 如果旅行社因为行程变更需要退票，应填写《订票申请单》，并在单中说明退票原因。\n   - 《铁路客货运输专刊》的《铁路旅客退票办法》规定了详细的退票流程和条件。\n   - 通常情况下，订票申请单需按需提交至车站的相关窗口或办理流程。\n\n2. **确认退票**：\n   - 如果满足规定条件，旅行社可以通过车站相关售票窗口或退票机器办理退票，具体的退票申请需经由客调中心的审批。\n   - 客运站将根据实际情况，处理退款并更新相关记录。\n\n3. **退款**：\n   - 旅行社在办理退票手续后，可以依照票款退款流程，接收退还的款项。\n\n请注意，上述操作的具体时间安排和详细流程可能有所变化，建议旅行社在处理过程中，遵循广州局集团公司提供的正式指南和文件，并与相关车站和管理部门保持密切沟通。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
+    },
+    "39db440c4fec1d4ba839f4982a8dec25": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u8d2d\\u4e70\", \"\\u5408\\u540c\\u7b7e\\u8ba2\", \"\\u7533\\u8bf7\\u6750\\u6599\", \"\\u4e0d\\u7b26\\u5408\\u8981\\u6c42\\u5904\\u7406\"], \"low_level_keywords\": [\"\\u53bf\\u7ea7\\u4eba\\u6c11\\u653f\\u5e9c\", \"\\u4e95\\u5188\\u5c71\\u7ea2\\u8272\\u65c5\\u6e38\", \"\\u8ba2\\u7968\\u5408\\u540c\", \"\\u8f66\\u7ad9\", \"\\u6750\\u6599\\u5ba1\\u6838\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某单位是县级人民政府，计划组织一次去井冈山的红色旅游，需要购买团体票。根据本办法，该单位是否可以与车站签订订票合同？在申请团体票时，需要提供哪些材料？如果车站在接收申请后，发现该单位提供的材料不符合要求，应该如何处理？"
+    },
+    "0f0fe40b62a51e8e99060cdd0f06500d": {
+      "return": "根据广州局集团公司重点、团体用票管理办法，县级人民政府属于县级以上（含县级）机关，可以通过车站建立订票合同户以方便公务出行，因此该单位可以与车站签订订票合同户。\n\n在申请团体票时，县级人民政府需提交以下材料：\n1. 《订票申请单》一式两份，由车站和订票单位各持有1份，并同时提交加盖公章的单位用票证明。\n2. 经办人的身份证原件及复印件，以及联系方式。\n\n此外，对于旅游企业等其他单位在申请团体票时还需提供其他文件，例如：\n- 企业工商营业执照原件及复印件。\n- 税务登记证原件及复印件。\n- 旅行社业务经营许可证原件及复印件（如适用）。\n\n车站对订票单位提交的资料须认真审核并把关，若发现提供的材料不符合规定，其有权拒绝办理相关订票申请。此外，车站应在接收和票务安排阶段对提交订票申请的单位一视同仁，尽量满足未过期且满足座位要求的剩余团体票请求。如果团体票申请单位在计划确认阶段没有达到规定的兑现率，第一次给予警告；第二次停办该单位团体用票申请一个月；第三次停办该单位团体用票申请两个月。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某单位是县级人民政府，计划组织一次去井冈山的红色旅游，需要购买团体票。根据本办法，该单位是否可以与车站签订订票合同？在申请团体票时，需要提供哪些材料？如果车站在接收申请后，发现该单位提供的材料不符合要求，应该如何处理？"
     }
   },
   "local": {
@@ -115,6 +1033,456 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "广州南、长沙站在一级应急响应和四级应急响应中的标准有哪些不同？"
+    },
+    "532002b659e2cc3c56cad5cb56fe57cf": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u94c1\\u8def\\u7cfb\\u7edf\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "a7af63fe6956dc8556bc4e1e4fb4dfaf": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是中国铁路广州局集团有限公司，该管理办法旨在规范旅客列车登乘管理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "1f9c0a57104a4a0e973d6453ab7b2084": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u53d1\\u5e03\\u65f6\\u95f4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "965ebdbe57f9b90f8408293dcd7cda5d": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的具体发布时间在知识库中未明确给出。根据现有信息，可以确定该管理办法由相关有权部门发布，并指导和规范旅客列车的登乘管理。具体的发布时间需要参考官方发布的正式文件或通知公告来获取详细信息。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "0dc8a7cc13283a4ecee172d11c62e45f": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u76ee\\u7684\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u89c4\\u8303\\u884c\\u4e3a\", \"\\u5b89\\u5168\\u68c0\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "17dbfd7a0412790d25d21bcb37acf2da": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》的制定主要目的是为了规范和加强中国铁路广州局集团有限公司管内旅客列车的登乘管理。这包括对旅客列车登乘卡的使用和管理进行规范化指导，确保登乘管理工作的有序进行，维护站车组织秩序，同时最大限度地减少不合规情况的发生，确保旅客和公共安全不受影响。另一方面，该办法结合了国铁集团的相关规定和集团公司的实际情况，旨在提升整体运营的合规性和安全性。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "ff7a935b844a761b9408dd881d123ecc": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "d64acf464bf66a355fd712d5606be4fc": {
+      "return": "《广州局集团公司旅客列车登乘卡管理办法》适用于管内客运车站及旅客列车的登乘管理。该管理办法旨在规范旅客列车登乘卡的使用与管理。登乘卡分为通勤登乘卡和维保登乘卡，有效期均为一年，适用于符合条件的劳务工、保养维护人员以及相关管理人员。此外，对于跨境动车组，也有对应的跨境动车组登乘卡规定，有效期分别为一至三年，根据使用者不同分为个人卡与公用卡。跨境动车组登乘卡主要用于车内保洁人员和餐饮人员的管理。注意，通勤登乘卡和维保登乘卡不得用于外局或港铁担当的旅客列车。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "df3e460c6c53fcd70f745e59fbcf0f01": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "5e4d7b312bf977ab04f8be807293f150": {
+      "return": "**登乘卡分类**\n\n登乘卡主要包括以下几种类型：\n\n1. **通勤登乘卡**：主要用于劳务工从工作地到家庭常住地间的通勤，仅限乘坐集团公司管内的动车组列车二等座。通勤登乘卡的有效期均为1年。\n2. **维保登乘卡**：主要用于车辆及车载设备维护人员、客运站车保洁单位相关管理人员以及保安公司管理人员的乘车需求，仅限在集团公司管内职务范围内使用。维保登乘卡同样有效期为1年。\n3. **广深港跨境登乘卡**：此卡分为个人卡和公用卡，个人卡有效期为1年，公用卡有效期为3年。主要提供给车内保洁人员、餐饮人员以及集团公司机关和运输相关管理人员。通勤和维保登乘卡样式统一格式。\n\n这些不同的登乘卡类型用于满足不同人群的特定需求，包括劳务通勤、车辆维护和跨境运输等管理服务。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "e68fd0db1d25cb8c2207b6d19268318b": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u5206\\u7c7b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u4e0d\\u540c\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\\u957f\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "b483ee8a40b11e309bcfc4dbb58aafee": {
+      "return": "跨境登乘卡分为个人卡和公用卡两种。个人卡的有效期为1年，而公用卡的有效期为3年。这两种登乘卡主要提供给广深港高铁跨境动车组内的车内保洁人员、餐饮人员以及集团公司机关和运输相关的管理人员使用。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "bfc1636b58ca27f1f0170f4c21282e90": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u6709\\u6548\\u671f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "876225a99ceb3408a11267263ffc5f82": {
+      "return": "通勤登乘卡和维保登乘卡的有效期根据不同的用途规定如下：\n\n- 通勤登乘卡：主要用于劳务工从工作地到家庭常住地间的通勤，其有效期根据具体政策可能会有所不同，但基于文档信息，通勤登乘卡的有效期通常与维保登乘卡相同。\n  \n- 维保登乘卡：主要用于车辆及设备维护人员的乘车需求，同样其有效期应与维保登乘卡的具体规定一致。\n\n根据提供的信息，维保登乘卡与通勤登乘卡有效期均为1年。具体而言，维保登乘卡与通勤登乘卡有效期受限于维保登乘卡属于旅客列车登乘卡类别，两者有效期均为1年。这意味着，在同一类别下，这两种卡片的有效期都是1年。\n\n总结来说，通勤登乘卡和维保登乘卡的有效期均为1年。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "f752446a1c6b0ea1ec771d4f3a02ffd0": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u4e2a\\u4eba\\u5361\", \"\\u7533\\u8bf7\\u6761\\u4ef6\", \"\\u76f8\\u5173\\u8bc1\\u660e\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "33fa9c0d941711d02417cafd53f10e3f": {
+      "return": "根据广州局集团公司的规定，跨境登乘卡个人卡的办理范围包括以下人员：\n\n- 跨境动车组内的保洁人员和餐饮人员\n- 集团公司机关、跨境运输相关单位的管理人员，这些人员需要每月多次检查或支援跨境动车组或香港西九龙站内地口岸区。\n\n这类卡片的有效期为1年，仅限于在集团公司管内车站进出，并在规定有效期内乘坐规定区段内的集团公司担当旅客列车。使用时跨境登乘卡个人卡使用者需要出示本人二代居民身份证。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "0dd06ab9aeb5fa9fc2635a851b4468fe": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u5355\\u4f4d\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u6d77\\u5173\", \"\\u8fb9\\u68c0\\u90e8\\u95e8\", \"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u56fd\\u9645\\u8fd0\\u8f93\\u516c\\u53f8\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "b2125ce1219887848f5ecb7b144ce157": {
+      "return": "跨境登乘卡的办理主体主要包括以下单位：\n\n1. **集团公司机关**：负责办理跨境登乘卡，同时也是跨境登乘卡和通勤/维保登乘卡的主体之一。\n2. **电务部**：负责车辆及车载设备等有关的路外设备厂家人员的维保登乘卡办理需求的收集和审核。\n3. **运输部**：负责收集和审核车辆及车载设备等有关的路外设备厂家人员的维保登乘卡需求。\n4. **保卫部**：负责保安公司维保登乘卡需求的收集和审核。\n\n这些单位负责确保跨境动车组车内保洁人员和餐饮人员能够顺利办理相关登乘卡。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "deed5a932f3e5adf2028168534a6f6be": {
+      "return": "{\"high_level_keywords\": [\"\\u91cd\\u70b9\\u7528\\u7968\", \"\\u56e2\\u4f53\\u7528\\u7968\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u5217\\u8f66\", \"\\u7528\\u7968\\u89c4\\u5b9a\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "a414ba4d02195e5f7b91fe5e6dc3ef03": {
+      "return": "《广州局集团公司重点、团体用票管理办法》适用于所有由广州局集团公司管理的重点和团体票务业务。具体而言，管理办法涵盖了铁路运输中的重点旅客用票以及旅游团体票的使用和管理。根据《广州局集团公司重点、团体用票管理办法》，该管理办法具体规定了票额的使用、管理和监督检查的相关要求，同时涉及到旅游团体票管理的细则。主要包括了国铁集团、地方党、政、军机关等单位的公务用票需求，以及旅游团体票的发放和管理。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司重点、团体用票管理办法》适用于哪些列车？"
+    },
+    "4152ea861e63e42fd0ee2893d8c3f4c9": {
+      "return": "{\"high_level_keywords\": [\"\\u8ba2\\u7968\\u5408\\u540c\\u6237\\u7533\\u8bf7\", \"\\u5355\\u4f4d\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u65c5\\u884c\\u793e\", \"\\u4f01\\u4e1a\", \"\\u5b66\\u6821\", \"\\u56e2\\u4f53\", \"\\u8ba2\\u7968\\u653f\\u7b56\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "4da2f6e9a0927690dfaaceaa901dc588": {
+      "return": "根据知识库信息，可以申请建立订票合同户的单位如下：\n\n1. **国家党、政、军机关**: 可以向车站申请建立订票合同户，以便于公务出行。（知识库实体ID 9）\n\n2. **旅行社**: 可能涉及与车站长期挂钩，并且可能会申请订票合同户，但根据一般规定，他们不能直接与车站签订具有约束力的订票合同或协议。（知识库实体ID 7和关系ID 119）\n\n3. **各客运、车务段（公司）**: 与符合条件的国家党、政、军机关签订订票合同和管理合同户。（知识库实体ID 2和关系ID 92）\n\n总结来说，**国家党、政、军机关**明确可以申请建立订票合同户。而**旅行社**虽然可能涉及与车站长期挂钩，但并没有直接申请订票合同户的权利。此外，**各客运、车务段（公司）**除了可能负责管理之外，也有与符合条件的国家党，政，军机关签订订票合同的资格。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以申请建立订票合同户？"
+    },
+    "6dc327c46d428256c56bf999f15d9fc6": {
+      "return": "{\"high_level_keywords\": [\"\\u673a\\u52a8\\u7968\\u5b9a\\u4e49\", \"\\u4f18\\u5148\\u4f7f\\u7528\\u6743\"], \"low_level_keywords\": [\"\\u673a\\u52a8\\u7968\", \"\\u4f18\\u5148\\u4f7f\\u7528\\u4eba\\u7fa4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "c36a2207453bb55d90d87fd3080f481f": {
+      "return": "机动票是为特定情况预留的票额，主要用于应对突发情况或特殊需求。用票单位是指国家的党政军机关等特定单位，这些单位可以优先申请和使用机动票。有关机动票的申请与使用，需遵循相关的审批流程，由这些特定单位向车站或集团公司提交订票申请单，并经必要的审批程序后，才能进行机动票的使用。\n\n根据提供的信息，用票单位需要向集团公司申请并使用机动票，申请使用时需提交订票申请单，由车站行政正职或主管副职负责审核其使用申请，确保符合规定和要求后方可使用机动票。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是机动票，以及谁可以优先使用机动票？"
+    },
+    "775ef653c2681373b1784d4023260619": {
+      "return": "{\"high_level_keywords\": [\"\\u514d\\u7968\\u7b7e\\u8bc1\\u4e1a\\u52a1\", \"\\u8f66\\u7ad9\\u89c4\\u7ae0\", \"\\u4e58\\u8f66\\u4eba\\u6570\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u6bcf\\u65e5\\u4e0a\\u9650\", \"\\u6bcf\\u5217\\u8f66\", \"\\u514d\\u7968\\u5f20\\u6570\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "69b63be7d1227806af96a3eae00e2b6c": {
+      "return": "根据提供的知识库，没有明确提到车站为每一列车办理免票签证业务时的具体张数上限。知识库中提到的是售票窗口负责办理免票签证业务（关系ID:56），但未提供具体的日累计上限信息。\n\n以下是与免票签证业务相关的信息摘要：\n- 售票窗口负责办理免票签证业务（关系ID:56）。\n- 售票窗口是车站中专门办理铁路职工免票签证手续的窗口（实体ID:36）。\n\n如果您需要了解具体的张数上限，建议直接咨询车站售票部门或者参考具体的管理规定与实施细则。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "根据规定，车站办理免票签证业务时，每一列车办理免票张数日累计上限是多少？"
+    },
+    "d34010e9fd9808a6b6ce7118326ba5b7": {
+      "return": "{\"high_level_keywords\": [\"\\u8f66\\u7ad9\\u7b7e\\u8bc1\\u6d41\\u7a0b\", \"\\u514d\\u7968\\u7b7e\\u8bc1\\u6761\\u4ef6\", \"\\u975e\\u672c\\u7ad9\\u7b7e\\u8bc1\"], \"low_level_keywords\": [\"\\u7279\\u5b9a\\u60c5\\u51b5\", \"\\u653f\\u7b56\\u89c4\\u5b9a\", \"\\u7968\\u52a1\\u7cfb\\u7edf\", \"\\u624b\\u7eed\\u8981\\u6c42\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "ec6cd4cdcc1238f794c1808229e966da": {
+      "return": "根据提供的知识库，售票站可以凭调度命令办理特定情况下的免票签证。具体信息如下：\n\n- **相关关系ID:** 60\n- **详细描述:** 售票站可以凭调度命令办理特定情况下的免票签证。\n- **关键字:** 文档验证, 特殊情况处理\n- **权重:** 8.0\n- **描述:** 售票站可以凭借调度命令来处理特定情况下的免票签证。\n\n这意味着，在有调度命令的情况下，车站可以为非本站的旅客办理免票签证。调度命令作为官方指令，在处理特定情况下免票签证时起到重要作用。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "在什么情况下车站可以办理非本站的免票签证？"
+    },
+    "cbd2740e68692ecca009dc6e53fd5d3a": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b9a\\u4e49\", \"\\u65f6\\u6bb5\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\", \"\\u7279\\u5b9a\\u65f6\\u6bb5\", \"\\u529e\\u7406\\u6761\\u4ef6\\u4e0b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "e2d3542d65cd53c7a4105379416d6f2a": {
+      "return": "### 团体票定义\n\n团体票是指一次性购买20张及以上，且乘车日期、车次、到站、座别相同的车票。\n\n### 不能办理团体票的时间段\n\n除特定的指定时段外，其他任何乘车日期均可办理团体票。具体不能办理团体票的指定时段包括：\n\n- 广州、深圳、东莞、惠州等地区春运期间的第一天至除夕\n- 湛江、茂名、潮汕、梅州等地区正月初三至初七\n- 湖南地区正月初三至十八\n- 海南地区春运期间第一天至正月十八\n\n这些时段为春运及其他特殊时期，因此无法在这些时期内办理团体票。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如何定义团体票，以及在哪些时段不能办理团体票？"
+    },
+    "8cbc94c580b705d04e68214f412bcca6": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u5b89\\u6392\", \"\\u5217\\u8f66\\u5ba2\\u5ea7\\u7387\", \"\\u603b\\u91cf\\u4e0a\\u9650\\u63a7\\u5236\"], \"low_level_keywords\": [\"\\u9884\\u552e\\u671f\\u5916\", \"\\u4e0a\\u4e00\\u5e74\\u540c\\u671f\", \"80%\\u4ee5\\u4e0a\\u5ba2\\u5ea7\\u7387\", \"\\u56e2\\u4f53\\u7968\\u989d\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "fd739d809c28a89a2b49e705e67dac77": {
+      "return": "对于上一年按日同期客座率80%以上的列车，在预售期外可以安排一定比例的团体票额。具体比例的详细信息未在提供的知识库中给出，不过已确认这些列车在预售期外可以安排团体票。考虑到客票销售管理，通常需要遵循相应的票务政策与规定，但具体比例需要按照铁路部门的安排和规定来执行。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "团体票安排按列车客座率实行总量上限控制，对于上一年按日同期客座率80%以上的列车，预售期外可安排多少比例的团体票额？"
+    },
+    "09add35141f5dbfcedff402e81b6aed1": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u7533\\u8bf7\", \"\\u8d44\\u6599\\u63d0\\u4ea4\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\"], \"low_level_keywords\": [\"\\u5355\\u4f4d\\u7533\\u8bf7\", \"\\u8d2d\\u7968\\u8d44\\u6599\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\\u8bc1\\u660e\", \"\\u989d\\u5916\\u8d44\\u6599\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "aa9939b502e3b3fb87e366ea8dcb353e": {
+      "return": "如果单位需要申请购买团体票，须向车站提交以下资料：\n\n- **《订票申请单》**：一式两份，车站和订票单位各持1份，并提交加盖公章的单位用票证明。\n- 经办人为订票单位正式员工的证明，包括经办人与订票单位签订的劳动合同复印件（国家党、政、军机关及事业单位提供一项证明材料即可）。\n- 经办人身份证的原件及复印件、联系方式。\n- 提交一份承诺书。\n\n如果用票单位为旅游企业，还需要提交以下额外资料：\n- 企业工商营业执照原件及复印件。\n- 税务登记证原件及复印件。\n- 旅行社业务经营许可证原件及复印件。\n\n如果旅游企业所属地已实行“三证合一”政策，提供合并核发后的营业执照即可。相关的证照原件将在首次申报时经车站核对一致后归还，复印件由车站存档备查。当这些证照发生变化时，必须及时联系车站进行更新。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果单位需要申请购买团体票，需要向车站提交哪些资料？如果用票单位为旅游企业，还需要提交哪些额外的资料？"
+    },
+    "6a6fc8391de3ded19a7135014fcb3342": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u7968\\u8c03\\u62e8\", \"\\u7533\\u8bf7\\u6d41\\u7a0b\", \"\\u5ba2\\u8fd0\\u90e8\"], \"low_level_keywords\": [\"\\u7ad9\\u6bb5\", \"\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u64cd\\u4f5c\\u6b65\\u9aa4\", \"\\u56e2\\u4f53\\u7968\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "54083238acff744fa25abffbe6234fc2": {
+      "return": "站段在需要向集团公司客运部申请团体票调拨时，应当遵循以下步骤操作：\n\n1. **提交订票申请单**：站段首先需要填写并提交订票申请单，申请单应包含详细的团体票需求信息，如团体人数、来源单位、拟乘车时间等，该申请单是对团体票管理流程中的关键组成部分。\n\n2. **审批流程**：提交的订票申请单需按照规定的程序进行审批，审批过程往往需要录入相关的身份验证信息以确保票务的公平性和准确性，审批完成后，会进行与出票记录的一致性核查。\n\n3. **获得调配确认**：经过审批流程并确保所有信息准确无误后，集团公司客运部将会确认调拨的团体票。此期间，客运部可以使用团体用票申报单来进行购票需求的具体申请，并由其负责审批和调配团体票，以确保符合管理部门的要求。\n\n4. **领取配票**：调整确认后，站段按照指示领取具体的团体票额度，确保在规定的时间内进行分发，这是站段执行订票合同户具体工作的关键环节之一。\n\n在整个流程中，所有步骤都需要严格按照相关规定和工作流程执行，确保团体票的管理和使用的规范性，以保障各项工作的顺利完成。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "如果站段需要向集团公司客运部申请团体票调拨时，应该如何操作？"
+    },
+    "72264945153823257ba8a99d8eda97ae": {
+      "return": "{\"high_level_keywords\": [\"\\u56e2\\u4f53\\u552e\\u7968\\u5904\\u7406\", \"\\u53f0\\u8d26\\u7ba1\\u7406\", \"\\u76d1\\u7763\\u68c0\\u67e5\"], \"low_level_keywords\": [\"\\u56e2\\u4f53\\u7968\", \"\\u8bb0\\u5f55\\u7ba1\\u7406\", \"\\u7968\\u52a1\\u6d41\\u7a0b\", \"\\u76d1\\u7763\\u673a\\u5236\", \"\\u65e5\\u5e38\\u68c0\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "10ed436863e4f90c677acd92919b4f50": {
+      "return": "### 车站团体售票流程\n\n团体售票是指车站对预订团体票的单位（即团体）进行管理的过程。这包括了以下关键步骤：\n\n1. **申请与审核**：申请团体票时，预订团体票的单位需提交订票申请单，订票申请单需经过行政正职或主管副职的审批，并且确保信息的真实性和一致性。\n2. **信息管理**：订票申请单会详细记录和核查票、证、人的信息一致性，以确保售票的过程管理准确无误。\n3. **出票登记**：订票申请单审批通过后，制作出票登记表来记录售票的具体情况，与审批的订票申请单保持一致，确保售票流程的透明度。\n4. **票务调配**：客运部会通过团体用票申报单来申请并调配团体票，确保售票的公正和合理。\n5. **票务系统配合**：借助票务系统，车站会支持各种支付方式和功能，确保旅客购票和取票的便利性和准确性。\n6. **铁路运输集团公司的重点管理**：广州局集团公司制定和实施团体票管理办法，并负责审核旅游企业的资格。\n7. **互联网平台支持**：利用互联网旅游团体票受理平台，广州局集团公司可以有效地管理团体票的接受和审批。\n\n### 日常台账管理和监督检查\n\n日常台账资料的管理和监督检查是确保票务工作规范化的基础，主要步骤如下：\n\n1. **管理制度制定**：《广州局集团公司客运系统车间、班组台账资料管理办法》等管理规定由相关上级部门（如广州局集团公司客运部办公室）发布，各部门需严格执行。\n2. **台账填写与保管**：每日的出售票务情况、使用情况等需及时、准确地记录在台账上，并按规定进行妥善保管，以备查询。\n3. **收入路风部门的监督**：收入路风部门负责对票务管理的监督检查，确保售票公平、公正。\n4. **定期审核与检查**：总收入路风管理部门会定期对各个站段的票务台账进行审核与检查，确保各项记录的真实性和规范性。\n5. **问题反馈与改进**：对检查中发现了账务管理中的不足之处，必须及时进行纠正，完善台账的管理，提升管理效能。\n\n### 综上所述\n\n车站应当首先通过规范的申请和审批流程处理团体售票，并借助各种台账资料进行详细记录以便管理和监督检查。日常需要遵守广州局集团公司的有关管理规定，通过票务台账资料有效的管理工作，确保售票、财务管理的合规、透明，并对任何发现的问题进行及时反馈和改进。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "车站应如何处理团体售票，以及如何进行日常台账管理和监督检查？"
+    },
+    "ec0fe8617408caa3147f9c9c85a421c9": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u5e73\\u53f0\", \"\\u670d\\u52a1\\u5bf9\\u8c61\"], \"low_level_keywords\": [\"\\u65c5\\u884c\\u793e\", \"\\u56e2\\u4f53\\u7968\\u8d2d\\u4e70\", \"\\u65c5\\u6e38\\u7ec4\\u7ec7\", \"\\u56e2\\u4f53\\u6e38\\u5ba2\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是旅游团体票平台，以及该平台的服务对象是什么？"
+    },
+    "8c1d6deb7c5fef283d471eec855b7994": {
+      "return": "### 旅游团体票平台介绍\n\n旅游团体票平台是指用于接受和处理旅游团体票申请的在线平台。平台名为“互联网旅游团体票受理平台”，它允许旅游团体提交在线申请单并管理这些申请。\n\n### 平台服务对象\n\n- **旅游企业**：旅游企业是主要的服务对象，可以通过该平台申请旅游团体票。旅游企业指提供旅游服务的企业，是旅游团体票的主要申请人，符合中国铁路广州局集团有限公司的相关规定可以使用网络平台申请票务。\n- **团体**：团体是指需要预订旅游团体票的单位，需要提交订票申请单，该单据记录了详细信息并经过审批后才能使用票额。\n\n通过此平台，旅游企业及团体可以更便捷地申请和管理旅游团体票，确保旅行社等业务顺利进行。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "什么是旅游团体票平台，以及该平台的服务对象是什么？"
+    },
+    "f46ccf71733f612f4440b1245f0225d5": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u529e\\u7406\", \"\\u65c5\\u6e38\\u4f01\\u4e1a\", \"\\u5e73\\u53f0\\u4f7f\\u7528\"], \"low_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u5e73\\u53f0\", \"\\u56e2\\u4f53\\u7968\\u8d2d\\u4e70\", \"\\u65c5\\u6e38\\u4e1a\\u52a1\", \"\\u6e38\\u5ba2\\u7ec4\\u7ec7\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "f1565ae4be549363dab85ae85b0a5ee8": {
+      "return": "旅游企业的旅游团体票申请流程主要包括以下几个步骤：\n\n1. **提交申请**：旅游企业应作为**旅游团体票的主要申请人**，提交详细的**团体票申请单**。这类申请单是地球旅游团体票申请的重要文件，需记录一些必要的信息，并遵循明确的审批流程。该步骤中，企业还需提供所需的证件材料，以证明其申请资格。\n\n2. **审核过程**：提交申请后，申请单需经过相关的审核。审核一般由**客运(售票)部门**和**集团公司客运部**共同完成，确保票务的公开、公平、公正。此外，可能需要具体组织机构，如**站段（公司）党政联席会议**，批准相关订票合同。\n\n3. **协议签订**：旅游企业可能还需与特定的接洽站签订**旅游团体票取票证**和**订取旅游团体票协议**，明确双方权益和服务细节。\n\n4. **信息一致**：整个申请单提交过程需确保**票、证、人的一致性**，此举是保障团体票申请审核重要的一环。\n\n5. **具体业务办理**：成功审核与合同签署后，旅游企业可以领取旅游团体票或相应取票证。而这些票务的管理依照由**中国铁路广州局集团有限公司**制定的**《互联网旅游团体票受理平台管理和使用的指导意见》(客营函〔2021〕10号)**执行。\n\n6. **使用票务平台**：旅游企业在实际操作中，需利用**互联网旅游团体票受理平台**进行票务的具体申请和管理。该平台提供便捷的在线申请流程，适用于旅游企业。\n\n以上为旅游团体票申请的主要步骤和相关注意事项。在具体操作中，需密切遵循**旅游企业**与平台及铁路管理部门的工作规程，确保业务操作顺畅开展。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "旅游企业如何通过旅游团体票平台办理旅游团体票？"
+    },
+    "7aecc70a237b6d505a80161f4a329e4e": {
+      "return": "{\"high_level_keywords\": [\"\\u94c1\\u8def\\u90e8\\u95e8\\u4fe1\\u7528\\u8003\\u6838\\u5236\\u5ea6\", \"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u52a1\\u7ba1\\u7406\", \"\\u5185\\u90e8\\u4fe1\\u7528\\u8bc4\\u4f30\"], \"low_level_keywords\": [\"\\u65c5\\u6e38\\u4f01\\u4e1a\", \"\\u56e2\\u4f53\\u7968\", \"\\u8003\\u6838\\u6807\\u51c6\", \"\\u7ba1\\u7406\\u5236\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "efbe53bd0b5709163a0e85f707bcf058": {
+      "return": "关于铁路部门对旅游企业旅游团体办票情况进行内部信用考核，您可以参考以下信息：\n\n### 1. 旅游企业与团体票管理\n旅游企业是旅游团体票的主要申请人，按照规定可以申请和受理旅游团体票。各个旅游团体在提交订票申请单时，需要通过详细的信息提供和审批流程来申请旅游团体票。涉及旅游团体票的申请和审批流程均应在票务系统中进行，保证了票务管理的透明度和规范性。\n\n### 2. 内部信用考核机制\n虽然知识库中没有直接提到针对旅游企业团体票办票情况的内部信用考核制度的详细内容，但从现有的管理文件及规定可以推断，考核主要包括以下几个方面的内容：\n- **申请与优惠规则**：旅游企业在申请团体票时需遵守相关的购票条件和优惠规则，确保票务流程的公平性和透明度。\n- **操作合规性**：旅游企业必须依据管理办法进行操作，包括提交订票申请单，申请材料真实有效，以及票、证、人的一致性核查。\n- **市场行为监督**：收入路风部门和与客运(售票)部门的联合监督确保票务使用的公平和公正。\n\n### 3. 监督与管理机构\n**1. 集团公司客运部**：\n- 负责解释关于旅游团体票的管理办法，同时参与审核旅游企业的资格。\n- 定期进行监督检查，确保旅游企业的办票行为符合相关规定。\n- 涉及团体用票申报单的申请与调配，亦由该部门负责审批。\n\n**2. 最终考核与处理**：\n- 各企业违反规定时，可能会影响到其继续办理团体票的资格和能力。\n- 企业需要根据本办法修订适用于其管理范围的细则，若是直属管理部门认为都需报备公立医院客运部，因而由该部负责这些措施的制定。\n- 任何违规行为都将被处理，可能涉及到内部约谈、投诉处理，以及进一步的法律和纪律处罚依据相关法律法规。\n\n以上就是基于知识库能够提供的信息框架，内部信用考核的具体条款和执行方式并未详细列明或直接指出。因此，详细的考核标准和执行策略很可能在相关政策中更进一步的细则中进行说明，或存在其他的内部解释性文件。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "铁路部门如何对旅游企业旅游团体办票情况实行内部信用考核制度？"
+    },
+    "da3995ef45aa4737de8471f69ce46950": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u6e38\\u56e2\\u4f53\\u7968\\u529e\\u7406\", \"\\u4f01\\u4e1a\\u624b\\u7eed\", \"\\u7ebf\\u4e0a\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u5de5\\u5546\\u8425\\u4e1a\\u6267\\u7167\", \"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u6ce8\\u518c\\u5730\", \"\\u7ebf\\u4e0a\\u5e73\\u53f0\", \"\\u7533\\u8bf7\\u6d41\\u7a0b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "0f9d78f34abd6b5d6c974db518b7193c": {
+      "return": "### 办理旅游团体票的手续和流程\n\n**线下办理：**\n1. **提交申请材料**：旅游企业需提供相关的申请材料，包括但不限于工商营业执照、法定代表人证照等。\n2. **填写并提交申请表**：提供正确的信息填写《订票申请单》，由企业行政正职或主管领导签名审批并确认。\n3. **审核**：各业务部门将负责收集并审核该申请需求。审核通过后，企业可进一步进行团体票的办理。\n\n**线上办理：**\n1. **注册账户**：登录“互联网旅游团体票受理平台”，按照平台要求注册企业账户，必须提供真实的公司信息。\n2. **提交电子申请**：按照业务流程填写相关信息并提交相应的电子版申请材料。\n3. **审批与确认**：广州局集团公司会在线审核这些材料，审批通过后，将发送确认信息给企业。\n4. **管理与使用**：企业在平台上可以进行相关团体票的查询、管理及使用。\n\n#### 相关管理规定\n根据《广州局集团公司重点、团体用票管理办法》，注册企业和申请单位需确保提供的信息准确无误，并遵守相关管理规定。这些规定包括：确保团票的用途为真实旅客出行需要，不得从事非法囤票或其他违规行为。同时，如果企业是首次申请使用，还需要特别注意了解并遵循首次申请时的所有具体规定和流程细节。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某旅游企业首次办理旅游团体票，其工商营业执照注册地在广州局集团公司管内，需要办理哪些手续？如果该旅游企业希望通过线上方式办理团体票，又该如何操作？"
+    },
+    "4a78bbff373529041dde24873b77c77b": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u884c\\u793e\\u64cd\\u4f5c\", \"\\u706b\\u8f66\\u7968\\u8d2d\\u4e70\", \"\\u9000\\u7968\\u6d41\\u7a0b\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u6ce8\\u518c\", \"\\u5f80\\u8fd4\\u706b\\u8f66\\u7968\", \"\\u957f\\u6c99\", \"\\u76f8\\u5173\\u90e8\\u95e8\", \"\\u6d41\\u7a0b\\u6b65\\u9aa4\", \"\\u884c\\u7a0b\\u53d8\\u66f4\", \"\\u9000\\u7968\\u624b\\u7eed\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
+    },
+    "76a70212210bd8ca2bb567be11b557bf": {
+      "return": "### 旅行社购买往返火车票流程\n\n对于一个在广州注册的旅行社，若想要为自己的旅游团购买从广州到长沙的往返火车票，需遵循以下流程：\n\n1. **提交订票申请单**\n   旅行社需要提交订票申请单，这一单据包含了必要的信息和审批流程。申请单会经过审批后才能使用，并且与实际发出的车票（出票记录）保持一致。（关系ID: 137、139）\n\n2. **提供证件材料**\n   旅行社需要提供额外的证件材料，以申请团体票。这通常包含团体成员的详细信息和旅行计划等。（关系ID: 145）\n\n3. **审批**\n   客运部负责审批和调配团体票，确保其符合相关规定的要求。同时，申请单会经过审核后提供票额供旅行社使用。\n\n### 退票手续办理\n\n如果旅行社由于行程变更等原因需要取消部分车票，可以按照以下步骤办理退票手续：\n\n1. **申请退票**\n   由旅行社负责向车站或集团公司提交退票申请。一般情形下，广州铁路微博微信平台及官网是集团自媒体，用于发布列车晚点信息；而自动售票机和12306手机APP是乘客自助办理退票手续的重要渠道。（关系ID: 0、29、50）\n\n2. **遵循规定流程**\n   根据铁路旅客运输的办理细则，退票或改签服务通常是为了应对晚点列车导致的换乘问题。因此，退票或许会收取相应的手续费，但旅客在实际开车前通过自动售票机或12306网站自助办理退票手续将不收取退票手续费。退票手续需在相应规则规定的时间内进行。（关系ID: 9、7）\n\n3. **实际操作**\n   旅行社可以通过铁路的自动售票机或12306手机APP进行退票操作，确保在规定的时间内完成（可能需要提供相应票据或订单号信息）。\n\n### 涉及部门和流程\n\n- **申报部门**：旅行社先向所属客运车站或集团公司提交订票申请单，符合条件后由客运部审批并分配团体票。\n- **退票相关**：具体可由旅行社或代表通过自动售票机、12306网站等途径自助办理无需手续费的退票。\n  \n请注意，整个操作还需符合相关的规章和实际购票操作指引，确保每一步都严格按照指南进行。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "一个旅行社，在广州注册，想为自己的旅游团购买从广州到长沙的往返火车票，应该如何操作？其中涉及哪些部门和流程？如果该旅行社因为行程变更，需要取消部分车票，退票手续如何办理？"
+    },
+    "6e55390deb08d8a4d868f93f69116af2": {
+      "return": "{\"high_level_keywords\": [\"\\u7ea2\\u8272\\u65c5\\u6e38\", \"\\u56e2\\u4f53\\u7968\", \"\\u8ba2\\u7968\\u5408\\u540c\", \"\\u7533\\u8bf7\\u6d41\\u7a0b\", \"\\u6750\\u6599\\u5ba1\\u6838\"], \"low_level_keywords\": [\"\\u53bf\\u7ea7\\u4eba\\u6c11\\u653f\\u5e9c\", \"\\u4e95\\u5188\\u5c71\", \"\\u8f66\\u7ad9\", \"\\u7533\\u8bf7\\u6750\\u6599\", \"\\u4e0d\\u7b26\\u5408\\u8981\\u6c42\", \"\\u5904\\u7406\\u65b9\\u5f0f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某单位是县级人民政府，计划组织一次去井冈山的红色旅游，需要购买团体票。根据本办法，该单位是否可以与车站签订订票合同？在申请团体票时，需要提供哪些材料？如果车站在接收申请后，发现该单位提供的材料不符合要求，应该如何处理？"
+    },
+    "64d587d92371a7dd57e76f6bc898c3c0": {
+      "return": "### 发起组织单位资格\n\n县级人民政府作为地方的党、政、军机关，根据管理办法的规定，是可以向车站申请订票合同户的。\n\n### 申请所需材料\n\n县级人民政府在申请团体票时，需要提交的材料包括但不限于：\n1. **单位证明**：提供正式的单位证明文件说明申请理由与目的。\n2. **订票申请单**：填写完整的订票申请单，包括旅游团队的基本信息、编号、联系方式等。\n3. **登乘卡申请表**：确保所有乘坐该旅游团的职工都进行登记，并有相应的登乘卡申请信息。\n\n### 材料不符处理流程\n\n如果车站收到申请后，发现该单位所提交的材料不符合要求，首先应依照《互联网旅游团体票受理平台管理和使用的指导意见》进行仔细核查。不合规之处应当明确反馈给申请人，具体步骤为：\n1. **核查信息**：严格检查提交的材料是否齐全准确，是否满足订票合同户的标准。\n2. **反馈意见**：通知申请单位材料不全或不合规的地方，提供书面或电子版的反馈意见。\n3. **修改完善**：给申请单位足够时间补正材料或修改申请内容。\n4. **重新提交**：如果申请单位确认修改并重新提交，车站将在审核后重新评估材料。\n\n确保材料完整符合标准后，车站方可与县级人民政府签订具有约束力的订票及协议合同。",
+      "cache_type": "query",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "某单位是县级人民政府，计划组织一次去井冈山的红色旅游，需要购买团体票。根据本办法，该单位是否可以与车站签订订票合同？在申请团体票时，需要提供哪些材料？如果车站在接收申请后，发现该单位提供的材料不符合要求，应该如何处理？"
     }
   },
   "default": {

@@ -1,0 +1,602 @@
+{
+  "local": {
+    "532002b659e2cc3c56cad5cb56fe57cf": {
+      "return": "{\"high_level_keywords\": [\"\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "1f9c0a57104a4a0e973d6453ab7b2084": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u53d1\\u5e03\\u65f6\\u95f4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "0dc8a7cc13283a4ecee172d11c62e45f": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u5236\\u5b9a\", \"\\u65c5\\u5ba2\\u670d\\u52a1\", \"\\u4f01\\u4e1a\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "ff7a935b844a761b9408dd881d123ecc": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "df3e460c6c53fcd70f745e59fbcf0f01": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "e68fd0db1d25cb8c2207b6d19268318b": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u5206\\u7c7b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\\u9650\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "bfc1636b58ca27f1f0170f4c21282e90": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\\u9650\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "f752446a1c6b0ea1ec771d4f3a02ffd0": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u4e2a\\u4eba\\u5361\", \"\\u7533\\u8bf7\\u6761\\u4ef6\", \"\\u529e\\u7406\\u6d41\\u7a0b\", \"\\u76f8\\u5173\\u4eba\\u5458\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "0dd06ab9aeb5fa9fc2635a851b4468fe": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u516c\\u7528\\u5361\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u51fa\\u5165\\u5883\\u7ba1\\u7406\\u5c40\", \"\\u6d77\\u5173\", \"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u8fd0\\u8f93\\u516c\\u53f8\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "e25a99383c080d5124d56517d7e9ad8f": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u5de5\\u4f5c\\u4eba\\u5458\", \"\\u4e58\\u5ba2\", \"\\u5ba1\\u6279\\u6d41\\u7a0b\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理通勤登乘卡？"
+    },
+    "c4e75ade014780c620d1a0e4b6d505cf": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u4eba\\u5458\", \"\\u767b\\u4e58\\u5361\\u7533\\u8bf7\"], \"low_level_keywords\": [\"\\u5de5\\u4f5c\\u4eba\\u5458\", \"\\u7ef4\\u4fee\\u4eba\\u5458\", \"\\u767b\\u4e58\\u5361\", \"\\u8d44\\u683c\\u5ba1\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理维保登乘卡？"
+    },
+    "21abd84b5fa9c35cd08d77a853910d3e": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u9650\\u5236\", \"\\u65c5\\u884c\\u9650\\u5236\", \"\\u767b\\u673a\\u6761\\u4ef6\"], \"low_level_keywords\": [\"\\u62a4\\u7167\\u8981\\u6c42\", \"\\u7b7e\\u8bc1\\u9650\\u5236\", \"\\u4f7f\\u7528\\u671f\\u9650\", \"\\u76ee\\u7684\\u5730\\u56fd\\u5bb6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡有哪些限制？"
+    },
+    "bde6ea6d0ccde75db8c3d2a1c6c3ab1c": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u4f7f\\u7528\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u4e58\\u8f66\\u65f6\\u95f4\", \"\\u4e58\\u8f66\\u6b21\\u6570\", \"\\u6709\\u6548\\u671f\\u9650\", \"\\u9002\\u7528\\u7ebf\\u8def\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用通勤登乘卡有哪些限制？"
+    },
+    "e0025bbd4b23a04fb11c94361ab33f67": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u4f7f\\u7528\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\", \"\\u9650\\u5236\\u6761\\u4ef6\", \"\\u4f7f\\u7528\\u89c4\\u5219\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡有哪些限制？"
+    },
+    "d5c4c68176d590c75d95d60283f00d91": {
+      "return": "{\"high_level_keywords\": [\"\\u52b3\\u52a1\\u5de5\\u8bc1\\u4ef6\\u8981\\u6c42\", \"\\u8de8\\u5883\\u901a\\u52e4\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u8eab\\u4efd\\u8bc1\", \"\\u5de5\\u4f5c\\u8bb8\\u53ef\\u8bc1\", \"\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，劳务工需要同时出示什么证件？"
+    },
+    "712487e020644ddcd387cde2d0c9e84e": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\", \"\\u8bc1\\u4ef6\\u8981\\u6c42\"], \"low_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u5176\\u4ed6\\u4eba\\u5458\", \"\\u8eab\\u4efd\\u8bc1\\u4ef6\", \"\\u540c\\u65f6\\u51fa\\u793a\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，其他人员需要同时出示什么证件？"
+    },
+    "446807c91a1569830cfd979223c794d0": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\"], \"low_level_keywords\": [\"\\u8eab\\u4efd\\u8bc1\", \"\\u5458\\u5de5\\u8bc1\", \"\\u5de5\\u4f5c\\u8bc1\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡时，需要同时出示什么证件？"
+    },
+    "cacd2997d0a57f187f556fbb27e5220d": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5ba2\\u8fd0\\u90e8\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u4fe1\\u606f\\u5f55\\u5165\", \"\\u5361\\u52a1\\u7ba1\\u7406\", \"\\u4e58\\u5ba2\\u4fe1\\u606f\", \"\\u53d1\\u5361\", \"\\u56de\\u6536\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "客运部在登乘卡管理中负责哪些职责？"
+    },
+    "2e70ac8c8cddc12440a4173c274c68ff": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u52b3\\u536b\\u90e8\", \"\\u5361\\u7247\\u53d1\\u653e\", \"\\u5ba1\\u67e5\", \"\\u8bb0\\u5f55\", \"\\u7ef4\\u62a4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "劳卫部在登乘卡管理中负责哪些职责？"
+    },
+    "305695e1f9051e22ae1596813d839f34": {
+      "return": "{\"high_level_keywords\": [\"\\u8d22\\u52a1\\u7ba1\\u7406\", \"\\u6536\\u5165\\u7ba1\\u7406\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u6536\\u5165\\u767b\\u8bb0\", \"\\u8d39\\u7528\\u5ba1\\u6838\", \"\\u5361\\u4fe1\\u606f\\u7ef4\\u62a4\", \"\\u6570\\u636e\\u7edf\\u8ba1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "财务部（收入部）在登乘卡管理中负责哪些职责？"
+    },
+    "2715d3986c5d427629596a21c4dc8837": {
+      "return": "{\"high_level_keywords\": [\"\\u4e1a\\u52a1\\u90e8\\u95e8\\u804c\\u8d23\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u8d23\\u4efb\\u5206\\u914d\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7533\\u8bf7\", \"\\u4fe1\\u606f\\u5ba1\\u6838\", \"\\u5361\\u53d1\\u653e\", \"\\u4f7f\\u7528\\u76d1\\u7ba1\", \"\\u8fdd\\u89c4\\u5904\\u7406\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "各业务部门在登乘卡管理中负责哪些职责？"
+    },
+    "e968f0b318979b5d0444075f283360c2": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5355\\u4f4d\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u7533\\u8bf7\\u6d41\\u7a0b\", \"\\u5ba1\\u6838\", \"\\u4fe1\\u606f\\u66f4\\u65b0\", \"\\u5361\\u7684\\u53d1\\u653e\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责？"
+    }
+  },
+  "global": {
+    "25d004694e0ede607fa1497469644408": {
+      "return": "{\"high_level_keywords\": [\"\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "86147e20171fbee2eba9268678719f8c": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\", \"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\"], \"low_level_keywords\": [\"\\u53d1\\u5e03\\u65f6\\u95f4\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "e7ab42bfe4f1be89c3928cd897379164": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5236\\u5ea6\\u5236\\u5b9a\", \"\\u89c4\\u8303\\u64cd\\u4f5c\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\", \"\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "e6aaaff04adc6a91b0b751d688a2c406": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "9d74bfdab96b8f107998872f08e06fa1": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\", \"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "afc4ba2898f25ec116e0e91250775be1": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u5206\\u7c7b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u5177\\u4f53\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\\u957f\\u5ea6\", \"\\u56fd\\u9645\\u65c5\\u884c\", \"\\u8bc1\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "21af8313347e9aa5b78720002abeb04e": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u6709\\u6548\\u671f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "9d4f8a5cbae5d5e6f97e201bd166f573": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4e2a\\u4eba\\u5361\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u76f8\\u5173\\u4eba\\u5458\", \"\\u7533\\u8bf7\\u8d44\\u683c\", \"\\u529e\\u7406\\u6d41\\u7a0b\", \"\\u6240\\u9700\\u6750\\u6599\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "e62e188b30769629fe7baecc87d64e8e": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u5355\\u4f4d\\u804c\\u80fd\"], \"low_level_keywords\": [\"\\u51fa\\u5165\\u5883\\u7ba1\\u7406\\u5c40\", \"\\u822a\\u7a7a\\u516c\\u53f8\", \"\\u6d77\\u4e8b\\u5c40\", \"\\u8fb9\\u68c0\\u7ad9\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "17ac1cd093fe069ea6afe2402b48b668": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u5de5\\u4f5c\\u4eba\\u5458\", \"\\u68c0\\u67e5\\u4eba\\u5458\", \"\\u56fa\\u5b9a\\u4e0a\\u4e0b\\u73ed\", \"\\u94c1\\u8def\\u804c\\u5de5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理通勤登乘卡？"
+    },
+    "c3de101cc0947066ecef850d1c1417d5": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u7ef4\\u4fdd\\u4eba\\u5458\", \"\\u6388\\u6743\\u5de5\\u7a0b\\u5e08\", \"\\u7ef4\\u4fee\\u6280\\u672f\\u4eba\\u5458\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理维保登乘卡？"
+    },
+    "8494590dfc29ffb9abedbb396f616666": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u65c5\\u884c\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u62a4\\u7167\\u8981\\u6c42\", \"\\u505c\\u7559\\u671f\\u9650\", \"\\u5165\\u5883\\u53e3\\u5cb8\", \"\\u7b7e\\u8bc1\\u89c4\\u5b9a\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡有哪些限制？"
+    },
+    "b30b0008bd9e702d1ce9780268a38d30": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u9650\\u5236\", \"\\u4f7f\\u7528\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u4e58\\u8f66\\u65f6\\u95f4\", \"\\u6709\\u6548\\u671f\\u9650\", \"\\u9002\\u7528\\u7ebf\\u8def\", \"\\u8d2d\\u4e70\\u5730\\u70b9\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用通勤登乘卡有哪些限制？"
+    },
+    "6a00a48aeca275be073e83a38395b2af": {
+      "return": "{\"high_level_keywords\": [\"\\u4f7f\\u7528\\u9650\\u5236\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u7279\\u5b9a\\u65f6\\u95f4\", \"\\u7279\\u5b9a\\u4eba\\u5458\", \"\\u4f7f\\u7528\\u5730\\u70b9\", \"\\u7ef4\\u62a4\\u4fdd\\u517b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡有哪些限制？"
+    },
+    "54f0cb6021793559c6ed88067613198c": {
+      "return": "{\"high_level_keywords\": [\"\\u52b3\\u52a1\\u5de5\\u8bc1\\u4ef6\", \"\\u767b\\u4e58\\u5361\\u4f7f\\u7528\"], \"low_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u8eab\\u4efd\\u8bc1\", \"\\u5de5\\u4f5c\\u8bb8\\u53ef\\u8bc1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，劳务工需要同时出示什么证件？"
+    },
+    "6c36415939224dcd8275a2ba2838a27b": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\"], \"low_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u5176\\u4ed6\\u4eba\\u5458\", \"\\u8bc1\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，其他人员需要同时出示什么证件？"
+    },
+    "d609ac68f26ee66410f2fd0283ef4bb0": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u8bc1\\u4ef6\\u8981\\u6c42\"], \"low_level_keywords\": [\"\\u8eab\\u4efd\\u8bc1\", \"\\u5de5\\u4f5c\\u8bc1\", \"\\u5176\\u4ed6\\u6709\\u6548\\u8bc1\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡时，需要同时出示什么证件？"
+    },
+    "37e63d61a2e44c711469b499ed7e8344": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u5ba2\\u8fd0\\u90e8\", \"\\u5361\\u7247\\u53d1\\u884c\", \"\\u4fe1\\u606f\\u5f55\\u5165\", \"\\u5ba1\\u6838\\u6d41\\u7a0b\", \"\\u5b89\\u5168\\u68c0\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "客运部在登乘卡管理中负责哪些职责？"
+    },
+    "2bbe841cd01d870825463ef3433fd14a": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u52b3\\u536b\\u90e8\", \"\\u767b\\u4e58\\u5361\\u53d1\\u653e\", \"\\u767b\\u4e58\\u5361\\u5ba1\\u6838\", \"\\u767b\\u4e58\\u5361\\u4f7f\\u7528\\u76d1\\u7763\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "劳卫部在登乘卡管理中负责哪些职责？"
+    },
+    "19a759cb60e85751efa1989a122200f7": {
+      "return": "{\"high_level_keywords\": [\"\\u8d22\\u52a1\\u7ba1\\u7406\", \"\\u6536\\u5165\\u7ba1\\u7406\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u8d22\\u52a1\\u5ba1\\u6838\", \"\\u6536\\u5165\\u8bb0\\u5f55\", \"\\u5361\\u52a1\\u64cd\\u4f5c\", \"\\u6570\\u636e\\u7edf\\u8ba1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "财务部（收入部）在登乘卡管理中负责哪些职责？"
+    },
+    "c48dfa32f23d085e08cf3671229d1f9a": {
+      "return": "{\"high_level_keywords\": [\"\\u4e1a\\u52a1\\u90e8\\u95e8\\u804c\\u8d23\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u8d23\\u4efb\\u5206\\u914d\"], \"low_level_keywords\": []}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "各业务部门在登乘卡管理中负责哪些职责？"
+    },
+    "18e54883b5588b48b23b7c3916234a55": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5355\\u4f4d\\u804c\\u8d23\", \"\\u5b89\\u5168\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u7533\\u8bf7\\u5ba1\\u6838\", \"\\u4fe1\\u606f\\u66f4\\u65b0\", \"\\u4eba\\u5458\\u57f9\\u8bad\", \"\\u8bb0\\u5f55\\u4fdd\\u5b58\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责？"
+    }
+  },
+  "mix": {
+    "96b0684541f13114835790d6ec9ea13c": {
+      "return": "{\"high_level_keywords\": [\"\\u53d1\\u5e03\\u5355\\u4f4d\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布单位是什么？"
+    },
+    "50d4f93473fdf97106a7b05e9ded62d9": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\\u529e\\u6cd5\", \"\\u53d1\\u5e03\\u65f6\\u95f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u7ba1\\u7406\\u529e\\u6cd5\\u53d1\\u5e03\\u65e5\\u671f\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》的发布时间是什么时候？"
+    },
+    "6f6b704b2ae4492c4ce25b1fae4c05b3": {
+      "return": "{\"high_level_keywords\": [\"\\u7ba1\\u7406\\u529e\\u6cd5\\u5236\\u5b9a\\u76ee\\u7684\", \"\\u65c5\\u5ba2\\u5217\\u8f66\\u7ba1\\u7406\", \"\\u96c6\\u56e2\\u516c\\u53f8\\u89c4\\u7ae0\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\", \"\\u7ba1\\u7406\\u89c4\\u8303\", \"\\u89c4\\u7ae0\\u5236\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "制定《广州局集团公司旅客列车登乘卡管理办法》的目的是什么？"
+    },
+    "5897673d160da9f98806d6358798987d": {
+      "return": "{\"high_level_keywords\": [\"\\u65c5\\u5ba2\\u5217\\u8f66\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u9002\\u7528\\u8303\\u56f4\"], \"low_level_keywords\": [\"\\u5e7f\\u5dde\\u5c40\\u96c6\\u56e2\\u516c\\u53f8\", \"\\u767b\\u4e58\\u5361\", \"\\u7ba1\\u7406\\u529e\\u6cd5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "《广州局集团公司旅客列车登乘卡管理办法》适用于哪些范围？"
+    },
+    "7ebfb333e69c2a7e176130a3ac447616": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u5206\\u7c7b\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7c7b\\u578b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "登乘卡分为哪几类？"
+    },
+    "c07a2a1bf1a5af635146e318d3203f2b": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\\u79cd\\u7c7b\", \"\\u6709\\u6548\\u671f\"], \"low_level_keywords\": [\"\\u4e0d\\u540c\\u7c7b\\u578b\", \"\\u6709\\u6548\\u671f\\u957f\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "跨境登乘卡分为哪几种？有效期分别是多久？"
+    },
+    "d67ce1ce82ae7fa427ed702128e3f4af": {
+      "return": "{\"high_level_keywords\": [\"\\u6709\\u6548\\u671f\", \"\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u65f6\\u95f4\\u957f\\u5ea6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "通勤登乘卡和维保登乘卡的有效期是多久？"
+    },
+    "83c6b4ebb30dde9b7e31fa0e43d0fe7f": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4e2a\\u4eba\\u5361\\u529e\\u7406\"], \"low_level_keywords\": [\"\\u4eba\\u5458\\u8d44\\u683c\", \"\\u7533\\u8bf7\\u6761\\u4ef6\", \"\\u5ba1\\u6279\\u6d41\\u7a0b\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理跨境登乘卡个人卡？"
+    },
+    "5c0a878f0799c4eda8a24785f7ff32a3": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u5355\\u4f4d\"], \"low_level_keywords\": [\"\\u529e\\u7406\\u6d41\\u7a0b\", \"\\u7533\\u8bf7\\u6761\\u4ef6\", \"\\u53d1\\u5361\\u673a\\u6784\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些单位可以办理跨境登乘卡公用卡？"
+    },
+    "a6fd87ee5edf1603176138516965e09a": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u5de5\\u4f5c\\u4eba\\u5458\", \"\\u5b9a\\u671f\\u68c0\\u67e5\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\", \"\\u4ea4\\u901a\\u5de5\\u5177\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理通勤登乘卡？"
+    },
+    "74e1d44491c8a94cd403a5b8a17cdf68": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u529e\\u7406\", \"\\u4eba\\u5458\\u8d44\\u683c\"], \"low_level_keywords\": [\"\\u7ef4\\u4fee\\u4eba\\u5458\", \"\\u4fdd\\u517b\\u4eba\\u5458\", \"\\u6388\\u6743\\u4eba\\u5458\", \"\\u5b89\\u5168\\u57f9\\u8bad\", \"\\u4f01\\u4e1a\\u5458\\u5de5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "哪些人员可以办理维保登乘卡？"
+    },
+    "197b58597fa472b151caba465a99b4f4": {
+      "return": "{\"high_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u4f7f\\u7528\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u62a4\\u7167\\u8981\\u6c42\", \"\\u7b7e\\u8bc1\\u9650\\u5236\", \"\\u505c\\u7559\\u65f6\\u95f4\", \"\\u5165\\u5883\\u53e3\\u5cb8\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡有哪些限制？"
+    },
+    "b5ddf5b8a74efadccc9407f03de6271a": {
+      "return": "{\"high_level_keywords\": [\"\\u901a\\u52e4\\u767b\\u4e58\\u5361\\u4f7f\\u7528\\u9650\\u5236\", \"\\u4ea4\\u901a\\u5361\\u9650\\u5236\"], \"low_level_keywords\": [\"\\u4f7f\\u7528\\u65f6\\u6bb5\\u9650\\u5236\", \"\\u4e58\\u8f66\\u7ebf\\u8def\\u9650\\u5236\", \"\\u5361\\u7c7b\\u578b\\u9650\\u5236\", \"\\u5145\\u503c\\u9650\\u5236\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用通勤登乘卡有哪些限制？"
+    },
+    "61a13ebc9d4777653a51d44b88b8f37e": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u4f7f\\u7528\\u9650\\u5236\", \"\\u9650\\u5236\\u6761\\u4ef6\"], \"low_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\", \"\\u4f7f\\u7528\\u89c4\\u5b9a\", \"\\u9650\\u5236\\u8bf4\\u660e\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡有哪些限制？"
+    },
+    "d4d23e165149fe5bbbb834755bd02920": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u52b3\\u52a1\\u5de5\\u8bc1\\u4ef6\\u8981\\u6c42\"], \"low_level_keywords\": [\"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\", \"\\u8eab\\u4efd\\u8bc1\\u4ef6\", \"\\u52b3\\u52a1\\u5de5\\u8bc1\\u4ef6\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，劳务工需要同时出示什么证件？"
+    },
+    "aa5aff6149e428b76a6380d13df48ee3": {
+      "return": "{\"high_level_keywords\": [\"\\u8bc1\\u4ef6\\u8981\\u6c42\", \"\\u8de8\\u5883\\u767b\\u4e58\\u5361\", \"\\u901a\\u52e4\\u767b\\u4e58\\u5361\"], \"low_level_keywords\": [\"\\u8eab\\u4efd\\u8bc1\", \"\\u62a4\\u7167\", \"\\u5176\\u4ed6\\u4eba\\u5458\\u8bc1\\u4ef6\", \"\\u767b\\u4e58\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用跨境登乘卡或通勤登乘卡时，其他人员需要同时出示什么证件？"
+    },
+    "b805d14ada9c257a1587589e90834081": {
+      "return": "{\"high_level_keywords\": [\"\\u7ef4\\u4fdd\\u767b\\u4e58\\u5361\\u4f7f\\u7528\", \"\\u8eab\\u4efd\\u9a8c\\u8bc1\"], \"low_level_keywords\": [\"\\u8bc1\\u4ef6\", \"\\u8eab\\u4efd\\u8bc1\", \"\\u5de5\\u4f5c\\u8bc1\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "使用维保登乘卡时，需要同时出示什么证件？"
+    },
+    "22c0b8221dee8d8b369a4fe5393e51a1": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u5ba2\\u8fd0\\u90e8\", \"\\u767b\\u4e58\\u5361\\u53d1\\u653e\", \"\\u767b\\u4e58\\u5361\\u5ba1\\u6838\", \"\\u767b\\u4e58\\u5361\\u4fe1\\u606f\\u7ef4\\u62a4\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "客运部在登乘卡管理中负责哪些职责？"
+    },
+    "97676ab4e29101d9a3dea6890fe3172a": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u52b3\\u536b\\u90e8\", \"\\u767b\\u4e58\\u5361\\u53d1\\u653e\", \"\\u767b\\u4e58\\u5361\\u5ba1\\u6838\", \"\\u767b\\u4e58\\u5361\\u6ce8\\u9500\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "劳卫部在登乘卡管理中负责哪些职责？"
+    },
+    "5ffb04f54d4f744837a7a3f1a21ff828": {
+      "return": "{\"high_level_keywords\": [\"\\u8d22\\u52a1\\u7ba1\\u7406\", \"\\u6536\\u5165\\u7ba1\\u7406\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u6536\\u5165\\u8bb0\\u5f55\", \"\\u6570\\u636e\\u5f55\\u5165\", \"\\u7968\\u636e\\u5ba1\\u6838\", \"\\u5361\\u53d1\\u884c\", \"\\u5361\\u8d39\\u7528\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "财务部（收入部）在登乘卡管理中负责哪些职责？"
+    },
+    "bddfc24705ce7d367fee8eb40e4c6631": {
+      "return": "{\"high_level_keywords\": [\"\\u4e1a\\u52a1\\u90e8\\u95e8\\u804c\\u8d23\", \"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\"], \"low_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u53d1\\u653e\", \"\\u4fe1\\u606f\\u66f4\\u65b0\", \"\\u5ba1\\u6838\\u6d41\\u7a0b\", \"\\u804c\\u8d23\\u5206\\u5de5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "各业务部门在登乘卡管理中负责哪些职责？"
+    },
+    "78ea3fc19df5351984f07d15a79efe39": {
+      "return": "{\"high_level_keywords\": [\"\\u767b\\u4e58\\u5361\\u7ba1\\u7406\", \"\\u5355\\u4f4d\\u804c\\u8d23\"], \"low_level_keywords\": [\"\\u7533\\u8bf7\\u8fc7\\u7a0b\", \"\\u5ba1\\u6838\\u6d41\\u7a0b\", \"\\u5361\\u7247\\u53d1\\u653e\", \"\\u4fe1\\u606f\\u66f4\\u65b0\", \"\\u5b89\\u5168\\u68c0\\u67e5\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "申请登乘卡单位在登乘卡管理中负责哪些职责？"
+    }
+  }
+}
