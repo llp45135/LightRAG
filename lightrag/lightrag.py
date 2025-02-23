@@ -29,7 +29,7 @@ from .operate import (
     mix_kg_vector_query,
     naive_query,
 )
-from .prompt import GRAPH_FIELD_SEP
+from .prompt_zh import GRAPH_FIELD_SEP
 from .utils import (
     EmbeddingFunc,
     compute_mdhash_id,

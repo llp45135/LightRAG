@@ -28,7 +28,7 @@ class QAEvalResult:
 class RAGEvaluator:
     """RAG系统评估器"""
     
-    def __init__(self, rag: LightRAG, eval_dir: str = "tests/evaluate"):
+    def __init__(self, rag: LightRAG, eval_dir: str = "tests/evaluate/grounds"):
         """
         初始化评估器
         
@@ -40,28 +40,30 @@ class RAGEvaluator:
         self.eval_dir = eval_dir
         self.results: Dict[str, List[QAEvalResult]] = {}
         
-    def load_qa_pairs(self) -> None:
-        """加载所有QA评估数据"""
-        for filename in os.listdir(self.eval_dir):
-            if filename.endswith('.json'):
-                file_path = os.path.join(self.eval_dir, filename)
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    qa_pairs = json.load(f)
-                    
-                results = []
-                for qa in qa_pairs:
-                    # 添加字段存在性检查
-                    if 'question' not in qa or 'answer' not in qa:
-                        print(f"警告：文件 {filename} 中存在格式不正确的数据项：{qa}")
-                        continue
-                        
-                    result = QAEvalResult(
-                        question=qa['question'],
-                        ground_truth=qa['answer']  # 确保使用正确的字段名
-                    )
-                    results.append(result)
-                self.results[filename] = results
+    def load_qa_pairs(self, filename: str) -> None:
+        """加载单个QA评估数据文件
+        
+        Args:
+            filename: 要加载的文件名
+        """
+        file_path = os.path.join(self.eval_dir, filename)
+        with open(file_path, 'r', encoding='utf-8') as f:
+            qa_pairs = json.load(f)
+            
+        results = []
+        for qa in qa_pairs:
+            # 添加字段存在性检查
+            if 'question' not in qa or 'answer' not in qa:
+                print(f"警告：文件 {filename} 中存在格式不正确的数据项：{qa}")
+                continue
                 
+            result = QAEvalResult(
+                question=qa['question'],
+                ground_truth=qa['answer']
+            )
+            results.append(result)
+        self.results[filename] = results
+
     def evaluate_single_question(self, qa_result: QAEvalResult) -> None:
         """评估单个问题的不同方法回答结果"""
         modes = [
@@ -87,27 +89,50 @@ class RAGEvaluator:
                 # 遇到错误时延长等待时间
                 sleep(5)
         
-    def evaluate_all(self) -> None:
-        """评估所有问题"""
-        self.load_qa_pairs()
+    def evaluate_file(self, filename: str) -> None:
+        """评估单个文件中的所有问题
         
-        for filename, qa_results in self.results.items():
-            print(f"正在评估文件: {filename}")
-            for i, qa_result in enumerate(qa_results):
-                print(f"正在评估第 {i+1}/{len(qa_results)} 个问题")
-                self.evaluate_single_question(qa_result)
-                
-    def save_results(self) -> None:
-        """保存评估结果"""
+        Args:
+            filename: 要评估的文件名
+        """
+        file_path = os.path.join(self.eval_dir, filename)
+        if not os.path.exists(file_path):
+            print(f"警告：文件 {file_path} 不存在")
+            return
+        
+        print(f"正在评估文件: {filename}")
+        self.load_qa_pairs(filename)
+        
+        qa_results = self.results[filename]
+        for i, qa_result in enumerate(qa_results):
+            print(f"正在评估第 {i+1}/{len(qa_results)} 个问题")
+            self.evaluate_single_question(qa_result)
+            
+        # 评估完成后立即保存该文件的结果
+        self.save_results(filename)
+        
+        # 清理该文件的结果以释放内存
+        del self.results[filename]
+
+    def save_results(self, filename: str) -> None:
+        """保存单个文件的评估结果
+        
+        Args:
+            filename: 评估结果对应的原始文件名
+        """
         # 创建结果目录
         results_dir = os.path.join(self.eval_dir, "results")
         os.makedirs(results_dir, exist_ok=True)
 
-        for filename, qa_results in self.results.items():
-            output_path = os.path.join(results_dir, f"eval_{filename}")
+        output_path = os.path.join(results_dir, f"eval_{filename}")
+        
+        if filename not in self.results:
+            print(f"警告：未找到 {filename} 的评估结果")
+            return
             
+        try:
             output_data = []
-            for result in qa_results:
+            for result in self.results[filename]:
                 output_data.append({
                     "question": result.question,
                     "ground_truth": result.ground_truth,
@@ -116,11 +141,13 @@ class RAGEvaluator:
                     "global_answer": result.global_answer,
                     "mix_answer": result.mix_answer
                 })
-                
+            
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, ensure_ascii=False, indent=2)
-                
+            
             print(f"评估结果已保存至: {output_path}")
+        except Exception as e:
+            print(f"保存结果到 {output_path} 时出错: {str(e)}")
 
 def create_rag_sync(working_dir: str) -> LightRAG:
     """同步方式创建RAG实例"""
@@ -179,7 +206,7 @@ def main():
     parser = argparse.ArgumentParser(description='评估RAG系统的问答效果')
     parser.add_argument('--working-dir', type=str, default='tests/KG',
                       help='RAG工作目录路径 (默认: ./KG)')
-    parser.add_argument('--eval-dir', type=str, default='tests/evaluate',
+    parser.add_argument('--eval-dir', type=str, default='tests/evaluate/grounds',
                       help='评估数据目录路径 (默认: tests/evaluate)')
     parser.add_argument('--input-file', type=str, default='kg9.md',
                       help='输入的知识文档 (默认: kg9.md)')
@@ -201,26 +228,29 @@ def main():
             loop = asyncio.get_event_loop()
             loop.run_until_complete(rag.insert(content))
     
+    # 确保评估目录存在
+    if not os.path.exists(args.eval_dir):
+        print(f"错误：评估目录 {args.eval_dir} 不存在")
+        return
+        
     # 创建评估器
     evaluator = RAGEvaluator(rag, args.eval_dir)
     
     try:
-        # 运行评估
-        print("开始评估...")
-        evaluator.evaluate_all()
+        # 遍历评估目录下的所有json文件
+        for filename in os.listdir(args.eval_dir):
+            if filename.endswith('.json'):
+                try:
+                    print(f"\n开始评估文件: {filename}")
+                    evaluator.evaluate_file(filename)
+                except Exception as e:
+                    print(f"评估文件 {filename} 时出错: {str(e)}")
+                    continue
         
-        # 保存结果
-        print("保存评估结果...")
-        evaluator.save_results()
-        
-        print("评估完成!")
+        print("\n所有文件评估完成!")
         
     except Exception as e:
         print(f"评估过程中出现严重错误: {str(e)}")
-        # 保存已完成的评估结果
-        if evaluator.results:
-            print("尝试保存部分结果...")
-            evaluator.save_results()
 
 if __name__ == "__main__":
     # 运行主函数

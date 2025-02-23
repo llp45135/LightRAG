@@ -31,7 +31,7 @@ from .base import (
     TextChunkSchema,
     QueryParam,
 )
-from .prompt import GRAPH_FIELD_SEP, PROMPTS
+from .prompt_zh import GRAPH_FIELD_SEP, PROMPTS
 import time
 
 
