@@ -28,7 +28,7 @@ class QAEvalResult:
 class RAGEvaluator:
     """RAG系统评估器"""
     
-    def __init__(self, rag: LightRAG, eval_dir: str = "tests/evaluate/grounds"):
+    def __init__(self, rag: LightRAG, eval_dir: str = "tests/evaluate/kg_grounds", results_dir: str = "tests/evaluate/kg_grounds/results"):
         """
         初始化评估器
         
@@ -38,6 +38,7 @@ class RAGEvaluator:
         """
         self.rag = rag
         self.eval_dir = eval_dir
+        self.results_dir = results_dir
         self.results: Dict[str, List[QAEvalResult]] = {}
         
     def load_qa_pairs(self, filename: str) -> None:
@@ -121,7 +122,7 @@ class RAGEvaluator:
             filename: 评估结果对应的原始文件名
         """
         # 创建结果目录
-        results_dir = os.path.join(self.eval_dir, "results")
+        results_dir = self.output
         os.makedirs(results_dir, exist_ok=True)
 
         output_path = os.path.join(results_dir, f"eval_{filename}")
@@ -201,44 +202,46 @@ def create_rag_sync(working_dir: str) -> LightRAG:
     
     return rag
 
-def main():
-    """主函数"""
-    parser = argparse.ArgumentParser(description='评估RAG系统的问答效果')
-    parser.add_argument('--working-dir', type=str, default='tests/KG',
-                      help='RAG工作目录路径 (默认: ./KG)')
-    parser.add_argument('--eval-dir', type=str, default='tests/evaluate/grounds',
-                      help='评估数据目录路径 (默认: tests/evaluate)')
-    parser.add_argument('--input-file', type=str, default='kg9.md',
-                      help='输入的知识文档 (默认: kg9.md)')
+def evaluate_rag_qa(
+    working_dir: str = 'tests/KG',
+    eval_dir: str = 'tests/evaluate/kg_grounds',
+    results_dir: str = 'tests/evaluate/kg_grounds/results',
+    input_file: str = 'kg9.md'
+) -> None:
+    """评估RAG系统的问答效果
     
-    args = parser.parse_args()
-    
+    Args:
+        working_dir: RAG工作目录路径
+        eval_dir: 评估数据目录路径
+        results_dir: 评估结果保存目录
+        input_file: 输入的知识文档
+    """
     # 确保工作目录存在
-    if not os.path.exists(args.working_dir):
-        os.makedirs(args.working_dir)
+    if not os.path.exists(working_dir):
+        os.makedirs(working_dir)
         
     # 创建RAG实例
-    rag = create_rag_sync(args.working_dir)
+    rag = create_rag_sync(working_dir)
     
     # 如果提供了输入文件，则插入文档
-    if args.input_file and os.path.exists(args.input_file):
-        print(f"正在插入文档: {args.input_file}")
-        with open(args.input_file, 'r', encoding='utf-8') as f:
+    if input_file and os.path.exists(input_file):
+        print(f"正在插入文档: {input_file}")
+        with open(input_file, 'r', encoding='utf-8') as f:
             content = f.read()
             loop = asyncio.get_event_loop()
             loop.run_until_complete(rag.insert(content))
     
     # 确保评估目录存在
-    if not os.path.exists(args.eval_dir):
-        print(f"错误：评估目录 {args.eval_dir} 不存在")
+    if not os.path.exists(eval_dir):
+        print(f"错误：评估目录 {eval_dir} 不存在")
         return
         
     # 创建评估器
-    evaluator = RAGEvaluator(rag, args.eval_dir)
+    evaluator = RAGEvaluator(rag, eval_dir, results_dir)
     
     try:
         # 遍历评估目录下的所有json文件
-        for filename in os.listdir(args.eval_dir):
+        for filename in os.listdir(eval_dir):
             if filename.endswith('.json'):
                 try:
                     print(f"\n开始评估文件: {filename}")
@@ -252,6 +255,195 @@ def main():
     except Exception as e:
         print(f"评估过程中出现严重错误: {str(e)}")
 
+def main():
+    """命令行入口函数"""
+    parser = argparse.ArgumentParser(description='评估RAG系统的问答效果')
+    parser.add_argument('--working-dir', type=str, default='tests/KG',
+                      help='RAG工作目录路径 (默认: ./KG)')
+    parser.add_argument('--eval-dir', type=str, default='tests/evaluate/kg_grounds',
+                      help='评估数据目录路径 (默认: tests/evaluate)')
+    parser.add_argument('--results_dir', type=str, default='tests/evaluate/kg_grounds/results',
+                      help='评估结果的目录 (默认: tests/evaluate/kg_grounds/result)')
+    parser.add_argument('--input-file', type=str, default='kg9.md',
+                      help='输入的知识文档 (默认: kg9.md)')
+    
+    args = parser.parse_args()
+    evaluate_rag_qa(
+        working_dir=args.working_dir,
+        eval_dir=args.eval_dir,
+        results_dir=args.results_dir,
+        input_file=args.input_file
+    )
+
+def analyze_evaluation_results(
+    results_dir: str = 'tests/evaluate/kg_grounds/results',
+    output_file: str = 'evaluation_summary.json'
+) -> None:
+    """分析评估结果文件，使用LLM对比答案质量并生成总结
+    
+    Args:
+        results_dir: 评估结果目录
+        output_file: 输出的总结文件名
+    """
+    if not os.path.exists(results_dir):
+        print(f"错误：结果目录 {results_dir} 不存在")
+        return
+        
+    # 加载环境变量
+    load_dotenv()
+    
+    async def score_answer(question: str, ground_truth: str, answer: str) -> float:
+        """使用LLM评分单个答案
+        
+        Args:
+            question: 原始问题
+            ground_truth: 标准答案
+            answer: 待评估答案
+            
+        Returns:
+            float: 1-10的评分
+        """
+        from lightrag.llm.openai import openai_complete_if_cache
+        
+        prompt = f"""请作为一位专业的评估者，评估以下答案的质量。
+
+问题：{question}
+
+标准答案：{ground_truth}
+
+待评估答案：{answer}
+
+请根据以下标准给出1-10分的评分：
+1. 答案的准确性和完整性（4分）
+2. 答案的相关性（3分）
+3. 表述的清晰度和专业性（3分）
+
+只需返回最终的总分（1-10的数字），不需要其他解释。"""
+
+        try:
+            score_text = await openai_complete_if_cache(
+                "Qwen/Qwen2.5-14B-Instruct",
+                prompt,
+                api_key=os.getenv("SILICONFLOW_API_KEY"),
+                base_url="https://api.siliconflow.cn/v1/",
+            )
+            return float(score_text.strip())
+        except Exception as e:
+            print(f"评分失败: {str(e)}")
+            return 0.0
+
+    async def analyze_file(filepath: str) -> dict:
+        """分析单个评估结果文件
+        
+        Args:
+            filepath: 评估结果文件路径
+            
+        Returns:
+            dict: 分析结果
+        """
+        print(f"正在分析文件: {filepath}")
+        with open(filepath, 'r', encoding='utf-8') as f:
+            results = json.load(f)
+            
+        file_summary = {
+            "file_name": os.path.basename(filepath),
+            "total_questions": len(results),
+            "scores": {
+                "naive": [],
+                "local": [],
+                "global": [],
+                "mix": []
+            },
+            "question_details": []
+        }
+        
+        for qa in results:
+            question_scores = {
+                "question": qa["question"],
+                "scores": {}
+            }
+            
+            # 评分每种方法的答案
+            for method in ["naive", "local", "global", "mix"]:
+                answer_key = f"{method}_answer"
+                if answer_key in qa and qa[answer_key]:
+                    score = await score_answer(
+                        qa["question"],
+                        qa["ground_truth"],
+                        qa[answer_key]
+                    )
+                    file_summary["scores"][method].append(score)
+                    question_scores["scores"][method] = score
+                    # 添加随机延迟避免API限制
+                    await asyncio.sleep(uniform(0.5, 1.5))
+                    
+            file_summary["question_details"].append(question_scores)
+            
+        # 计算平均分
+        for method in file_summary["scores"]:
+            scores = file_summary["scores"][method]
+            if scores:
+                file_summary[f"{method}_avg_score"] = sum(scores) / len(scores)
+            else:
+                file_summary[f"{method}_avg_score"] = 0
+                
+        return file_summary
+
+    async def analyze_all_files() -> None:
+        """分析所有评估结果文件"""
+        all_results = []
+        
+        for filename in os.listdir(results_dir):
+            if filename.endswith('.json') and filename.startswith('eval_'):
+                filepath = os.path.join(results_dir, filename)
+                try:
+                    file_summary = await analyze_file(filepath)
+                    all_results.append(file_summary)
+                except Exception as e:
+                    print(f"分析文件 {filename} 时出错: {str(e)}")
+                    continue
+        
+        # 计算总体统计信息
+        overall_summary = {
+            "total_files": len(all_results),
+            "total_questions": sum(r["total_questions"] for r in all_results),
+            "method_scores": {
+                "naive": [],
+                "local": [],
+                "global": [],
+                "mix": []
+            },
+            "file_summaries": all_results
+        }
+        
+        # 汇总所有方法的分数
+        for result in all_results:
+            for method in ["naive", "local", "global", "mix"]:
+                if f"{method}_avg_score" in result:
+                    overall_summary["method_scores"][method].append(
+                        result[f"{method}_avg_score"]
+                    )
+        
+        # 计算总体平均分
+        for method in overall_summary["method_scores"]:
+            scores = overall_summary["method_scores"][method]
+            if scores:
+                overall_summary[f"{method}_overall_avg"] = sum(scores) / len(scores)
+            else:
+                overall_summary[f"{method}_overall_avg"] = 0
+        
+        # 保存总结结果
+        output_path = os.path.join(results_dir, output_file)
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(overall_summary, f, ensure_ascii=False, indent=2)
+            print(f"评估总结已保存至: {output_path}")
+        except Exception as e:
+            print(f"保存总结文件时出错: {str(e)}")
+    
+    # 运行异步分析函数
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(analyze_all_files())
+
 if __name__ == "__main__":
-    # 运行主函数
     main() 
